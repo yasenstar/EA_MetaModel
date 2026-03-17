@@ -5,6 +5,8 @@ Master EAS Meta-Model from Ontology and Graph Perspective
 - [Enterprise Architecture (EA) MetaModel](#enterprise-architecture-ea-metamodel)
   - [About EAS Meta-Model](#about-eas-meta-model)
   - [Why this Repository?](#why-this-repository)
+  - [Approaching of Modeling](#approaching-of-modeling)
+  - [Toolsets for Modeling](#toolsets-for-modeling)
 
 ## About EAS Meta-Model
 
@@ -30,7 +32,7 @@ However, since the open sourse tool was started from 2009, it's still locked in 
 | Required Components | Essential OS Version | Latest Available Version |
 | --- | --- | --- |
 | Java Runtime Environment | Java 1.8 | openjdk 21.0.5 2024-10-15 LTS |
-| Protege Ontology Editor  | 3.5 | 5.6.7 |
+| Protege Ontology Editor  | 3.5 | 5.6.9 |
 | Apache Tomcat | 8.5 or 9.0 ONLY | 11.0.18 |
 
 *Note: as of date 2026/03/17*
@@ -49,6 +51,23 @@ Thus, I'd like to use this repository to record my practice step-by-step, on
 After the practice, I hope there will be one re-usable ontology meta-model RDF/OWL file as the template for any enterprise architect using, in their latest Protege version, and having one graph to be viewed visually on the relationship.
 
 It would be a long journey, I'll keep tracking any updated changes from EAS, and will record the hands-on activities into one video series (let's target within 1000 lectures ;-))
+
+## Approaching of Modeling
+
+1. Build `Class` hierarchy in Protege v5.6+, base on `Class Browser` in EAS
+2. For every `Class` in EAS, examine detail from `Classes Editor` for modeling its `Documentation`, `Role`, and especially `Template Slots` (mapping to `Object Property` or `Data Property`)
+3. Create `Element` and `Relationship` concepts into a CSV file
+4. Load CSV into Neo4j graph database
+5. Learn by typing everything, no Copy and Paste!
+
+## Toolsets for Modeling
+
+- [Essential Open Source EA Tool](https://enterprise-architecture.org/products/essential-open-source/)
+- [Protege / Protégé Desktop](https://protege.stanford.edu/software.php#desktop-protege)
+- [Neo4j Graph Database](https://neo4j.com/product/neo4j-graph-database/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+
+---
 
 Stay tunes! And feel free to raise your comments and suggestions!
 
