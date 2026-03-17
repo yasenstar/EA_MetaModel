@@ -45,8 +45,16 @@ The Consolidated Reference Model (CRM) of the FEAF equips OMB (Office of Managem
 
 | RM | RM-FullName | Description | Content | Artefacts |
 | --- | --- | --- | --- | --- |
-| PRM | Performance Reference Model | links agency strategy, internal business components, and investments, providing a means  | - Cross-Agency and Inter-Agency Goals and Objectives<br>- Uniquely tailored performance indicators | - Goals<br>- Mea
-| BRM | Business Reference Model | describes an organization through a taxonomy of common mission and support service areas instead of through a stove-piped organizational view, thereby promoting inter- and inter-agency collaboration. |
+| PRM | Performance Reference Model | links agency strategy, internal business components, and investments, providing a means to measure the impact of those investments on strategic outcomes. | - Cross-Agency and Inter-Agency Goals and Objectives<br>- Uniquely tailored performance indicators | - Goals<br>- Meas. Area<br>- Meas. Category |
+| BRM | Business Reference Model | describes an organization through a taxonomy of common mission and support service areas instead of through a stove-piped organizational view, thereby promoting inter- and inter-agency collaboration. | - Intra- and inter-agency shared services<br>- Agencies, customers, partners, providers. | - Mission Sector<br>- Business Function<br>- Service |
+| DRM | Data Reference Model | facilitates discovery of existing data holdings residing in "silos" and enables understanding the meaning of the data, how to access it, and how to leverage it to support performance results. | - Business-focused data standardization<br>- Cross-agency information exchanges | - Domain<br>- Subject<br>- Topic |
+| ARM | Application Reference Model | categorizes the system- and application-related standards and technologies that support the delivery of service capabilities, allowing agencies to share and reuse common solutions and benefit from economies of scale. | - Software providing functionality<br>- Enterprise service bus | - System<br>- Application Component<br>- Interface |
+| IRM | Infrastructure Reference Model | categorizes the network/cloud related standards and technologies to support and enable the delivery of voice, data, video, and mobile service components and capabilities. | - Hardware providing functionality<br>- Hosting, data centers, cloud, virtualization | - Platform<br>- Network<br>- Facility |
+| SRM | Security Reference Model | provides a common language and methodology for discussing security and privacy in the context of federal agencies' business and performance goals. | - Risk-adjusted security/privacy protection<br>- Security control design / implementation | - Purpose<br> - Risk<br>- Control |
+
+Consolidated Reference Model Relationship Diagram is as below:
+
+![feaf-consolidated-ref-model-relation](img/feaf-consolidated-ref-model-relation.png)
 
 ## TOGAF - The Open Group Architecture Framework
 
