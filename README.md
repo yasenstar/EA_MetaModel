@@ -33,7 +33,7 @@ However, since the open sourse tool was started from 2009, it's still locked in 
 | Protege Ontology Editor  | 3.5 | 5.6.7 |
 | Apache Tomcat | 8.5 or 9.0 ONLY | 11.0.18 |
 
->[!note] as of data 2026/03/17
+*Note: as of date 2026/03/17*
 
 For Java, we can keep both Java version co-exist in one machine, similar to Protege, but for Tomcat, as I had to leave it to v9, there're specific vulnerabilities need to be handled since our company are already in the higher version for years, that's in more challenge since the Essential Viewer is deployed in the server end.
 
