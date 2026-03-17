@@ -50,7 +50,7 @@ Thus, I'd like to use this repository to record my practice step-by-step, on
 
 After the practice, I hope there will be one re-usable ontology meta-model RDF/OWL file as the template for any enterprise architect using, in their latest Protege version, and having one graph to be viewed visually on the relationship.
 
-It would be a long journey, I'll keep tracking any updated changes from EAS, and will record the hands-on activities into one video series (let's target within 1000 lectures ;-))
+It would be a long journey, I'll keep tracking any updated changes from EAS, and will record the hands-on activities into one video series (let's target within 1000 lectures :slightly_smiling_face:)
 
 ## Approaching of Modeling
 
