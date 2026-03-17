@@ -69,10 +69,7 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 
 ---
 
-Stay tunes! And feel free to raise your comments and suggestions!
-
+Stay tunes, feel free to raise your comments and suggestions! 
 Thanks for supporting me!
-
----
 
 Last updated by Xiaoqi Zhao, 3/17/2026, 10:12:32 AM 
