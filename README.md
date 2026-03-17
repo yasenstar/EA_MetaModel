@@ -7,6 +7,7 @@ Master EAS Meta-Model from Ontology and Graph Perspective
   - [Why this Repository?](#why-this-repository)
   - [Approaching of Modeling](#approaching-of-modeling)
   - [Toolsets for Modeling](#toolsets-for-modeling)
+  - [Contents for the Meta-Model](#contents-for-the-meta-model)
 
 ## About EAS Meta-Model
 
@@ -66,6 +67,10 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 - [Protege / Protégé Desktop](https://protege.stanford.edu/software.php#desktop-protege)
 - [Neo4j Graph Database](https://neo4j.com/product/neo4j-graph-database/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
+
+## Contents for the Meta-Model
+
+- [Enterprise Architecture Reference Frameworks](ea_frameworks/README.md)
 
 ---
 
