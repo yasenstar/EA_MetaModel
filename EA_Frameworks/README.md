@@ -6,6 +6,7 @@
   - [FEAF - Federal Enterprise Architecture Framework](#feaf---federal-enterprise-architecture-framework)
   - [TOGAF - The Open Group Architecture Framework](#togaf---the-open-group-architecture-framework)
   - [Zachman Enterprise Architecture Framework](#zachman-enterprise-architecture-framework)
+  - [The $EA^3$ Cube Approach](#the-ea3-cube-approach)
 
 ## MODAF - British Ministry of Defense Architecture Framework (UK)
 
@@ -59,3 +60,14 @@ Consolidated Reference Model Relationship Diagram is as below:
 ## TOGAF - The Open Group Architecture Framework
 
 ## Zachman Enterprise Architecture Framework
+
+## The $EA^3$ Cube Approach
+
+Enterprise Architecture = Strategy + Business + Technology
+
+(EA = S + B + T)
+
+![orginizing-influence-ea3](img/ea3_organizing-influence.png)
+
+- [EA3 Cube Approach - Whitepaper](../ref/ea3/ea3-cube-approach.pdf)
+- [EA3: A Primer](../ref/ea3/EA3-A-Primer.pdf)
