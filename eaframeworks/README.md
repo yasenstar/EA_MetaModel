@@ -3,7 +3,7 @@
 - [Enterprise Architecture Reference Frameworks](#enterprise-architecture-reference-frameworks)
   - [DoDAF - Department of Defense Architecture Framework (US)](#dodaf---department-of-defense-architecture-framework-us)
   - [MODAF - British Ministry of Defense Architecture Framework (UK)](#modaf---british-ministry-of-defense-architecture-framework-uk)
-  - [NAF V4](#naf-v4)
+  - [NAF V4 $\\rightarrow$ UAF](#naf-v4-rightarrow-uaf)
   - [FEAF - Federal Enterprise Architecture Framework](#feaf---federal-enterprise-architecture-framework)
   - [TOGAF - The Open Group Architecture Framework](#togaf---the-open-group-architecture-framework)
   - [Zachman Enterprise Architecture Framework](#zachman-enterprise-architecture-framework)
@@ -93,7 +93,7 @@ Other MODAF Reference:
 - [MODAF 1.2 Version History V1.0](../ref/modaf/20090518_MODAF_1_2_Version_History_V1_0_U-withdrawn.pdf)
 - [MODAF 1.2 004 Change Log](../ref/modaf/20100426MODAF1_2_004ChangeLog-withdrawn.pdf)
 
-## NAF V4
+## NAF V4 $\rightarrow$ UAF
 
 URL: https://www.nato.int/en/about-us/organization/nato-structure/digital-policy-committee-dpc/nato-architecture-framework-version
 
@@ -134,7 +134,23 @@ Consolidated Reference Model Relationship Diagram is as below:
 
 ## TOGAF - The Open Group Architecture Framework
 
+URL: https://www.opengroup.org/togaf
+
+TOGAF 9.1 Simplified Meta Model: 
+
+![togaf_9.1_content_metamodel](img/togaf_9.1_content_metamodel.png)
+
+Here is [TOGAF 9 to Essential Meta Model Concept Mapping](../ref/togaf/togaf-to-essential-meta-model-mapping-v4.pdf)
+
 ## Zachman Enterprise Architecture Framework
+
+The Zachman framework provided a fresh perspective of looking at and developing enterprise architecture. It asks the questions of What, How, When, Who, Where, and Why–and the integration and answers to these questions that enable the comprehensive, composite overview of complex ideas used to plan, implement, process and evaluate an organization's enterprise structure.
+
+![Zachman_Framework_Detailed.jpg](img/Zachman_Framework_Detailed.jpg)
+
+Here is a comparison between Zachman vs TOGAF:
+
+![compare_zachman-vs-togaf](img/compare_zachman-vs-togaf.png)
 
 ## The $EA^3$ Cube Approach
 

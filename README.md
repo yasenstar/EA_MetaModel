@@ -70,6 +70,7 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 
 ## Contents for the Meta-Model
 
+- [Metamodels in ISO 42010](./ref/Hilliard-On-Metamodels-in-42010.pdf)
 - [Enterprise Architecture Reference Frameworks](./eaframeworks/README.md)
 
 ---
