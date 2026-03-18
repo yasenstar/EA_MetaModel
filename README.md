@@ -70,11 +70,11 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 
 ## Contents for the Meta-Model
 
-- [Enterprise Architecture Reference Frameworks](./ea_frameworks/README.md)
+- [Enterprise Architecture Reference Frameworks](./eaframeworks/README.md)
 
 ---
 
 Stay tunes, feel free to raise your comments and suggestions! 
 Thanks for supporting me!
 
-Last updated by Xiaoqi Zhao, 3/17/2026, 10:12:32 AM 
+Last updated by Xiaoqi Zhao, 3/18/2026
