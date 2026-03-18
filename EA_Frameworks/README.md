@@ -2,6 +2,7 @@
 
 - [Enterprise Architecture Reference Frameworks](#enterprise-architecture-reference-frameworks)
   - [MODAF - British Ministry of Defense Architecture Framework (UK)](#modaf---british-ministry-of-defense-architecture-framework-uk)
+  - [NAF V4](#naf-v4)
   - [DoDAF - Department of Defense Architecture Framework (US)](#dodaf---department-of-defense-architecture-framework-us)
   - [FEAF - Federal Enterprise Architecture Framework](#feaf---federal-enterprise-architecture-framework)
   - [TOGAF - The Open Group Architecture Framework](#togaf---the-open-group-architecture-framework)
@@ -9,6 +10,74 @@
   - [The $EA^3$ Cube Approach](#the-ea3-cube-approach)
 
 ## MODAF - British Ministry of Defense Architecture Framework (UK)
+
+MODAF - The MOD Architecture Framework - is a set of rules that support UK Government's defense planning and change management activities.
+
+URL: https://www.gov.uk/guidance/mod-architecture-framework
+
+The guidance was withdrawn on 15 January 2021, it had been replaced with the NATO Architecture Framework (NAF) V4.
+
+The simplified overview of the MODAF Meta Model (M3) is here:
+
+![modaf-meta-model-m3](img/modaf-meta-model-m3.png)
+
+As the framework had been withdrawn, here are the MODAF documents downloaded from above website and list for reference (and archiving):
+
+MODAF Guidance:
+- [MODAF Meta Model (M3): an introduction](../ref/modaf/20090310_modaf_meta_model_v1_0-U_-_withdrawn.pdf)
+
+Viewpoints and Views:
+- Views Summary Documents:
+  - [MODAF View Summary](../ref/modaf/20090216ViewsummaryU_withdrawn.pdf)
+  - [MODAF Layers and Viewpoint Linkages](../ref/modaf/20090219_MODAF_Layers_and_Viewpoint_Linkages_U-withdrawn.pdf)
+  - [StV2 OV2 OV5 SV1 SV4U Views Pictures](../ref/modaf/20091126StV2_OV2_OV5_SV1_SV4U-withdrawn.png)
+  - [Views Home Downloadable](../ref/modaf/ViewsHomeDownloadable-withdrawn.pdf)
+- All Views ViewPoint: [AV Viewpoint](../ref/modaf/20100426MODAFAVViewpoint1_2_004U.pdf)
+- Strategic View Viewpoint: [StV Viewpoint](../ref/modaf/20100426MODAFStVViewpoint1_2_004U-withdrawn.pdf)
+- Operational View Viewpoint:
+  - [OV Viewpoint](../ref/modaf/20100426MODAFOVViewpoint1_2_004U__1_withdrawn.pdf)
+  - [IERs in MODAF](../ref/modaf/IERsinMODAF__1_wthdrawn.pdf)
+- System View Viewpoint: [SV Viewpoint](../ref/modaf/20100426MODAFSVViewpointV1_2_004U-withdrawn.pdf)
+- Technical Standards View Viewpoint: [TV Viewpoint](../ref/modaf/20100426MODAFTVViewpointV1_2_004U-Withdrawn.pdf)
+- Acquisition View Viewpoint: [AcV Viewpoint](../ref/modaf/20100426MODAFAcVViewpointV1_2_004U-withdrawn.pdf)
+- Service Oriented View Viewpoint: [SOV Viewpoint](../ref/modaf/20100426MODAFSOVViewpointV1_2_004U-withdrawn.pdf)
+
+MODAF Meta Model and MODAF Ontological Data Exchange Mechanism:
+- [MODAF Meta Model 3](../ref/modaf/20130117_MODAF_M3_version1_2_004_withdrawn.pdf)
+- MODAF Ontological Data Exchange Mechanism: [MODAF MODEM](../ref/modaf/20130117_MODAF_MODEM-withdrawn.pdf)
+
+Use and Examples of MODAF:
+- Uses and Examples:
+  - [The MODAF Architecturing Process](../ref/modaf/20090210_MODAF_Architecting_Process_V1_0_U-withdrawn.pdf)
+  - [MODAF Support to Analysis of Capability Integration in the Context of Defense Lines of Development (DLODs)](../ref/modaf/20090210_MODAFDLODAnalysis_V1_0_U-withdrawn.pdf)
+  - [MODAF Support to User Requirements Definition](../ref/modaf/20090210_MODAFSupporttoURDs_V1_0_U-withdrawn.pdf)
+  - [MODAF Support to System Requirements Definition](../ref/modaf/20090210_MODAFSupporttoSRDs_V1_0_U-withdrawn.pdf)
+  - [MODAF Support to Dependency Analysis](../ref/modaf/20090210_MODAFSupporttoDependencyAnalysisV1_0_U-withdrawn.pdf)
+  - [MODAF Support to Gap Analysis](../ref/modaf/20090210_MODAF_Support_to_Gap_Analysis_V1_0_U-withdrawn.pdf)
+  - [Creating Capability Architectures with MODAF](../ref/modaf/20090217_CreatingCapabilityArchitectures_V1_0_U-withdrawn.pdf)
+
+Frequently Asked Questions:
+- [Ontologies and Their Use in MODAF](../ref/modaf/20090203_Ontologies_and_their_Use_MODAF_V1_0_U-withdrawn.pdf)
+- [MODAF Glossary](../ref/modaf/20090304_MODAF01_2Glossary_V1_0__1-withdrawn.pdf)
+- [Comparison of MODAF with Other Frameworks](../ref/modaf/20090521_MODAF_1_2_FAQs_Comparison_Of_MODAF_With_Other_Frameworks_V1_0_U-withdrawn.pdf)
+- [How MODAF can Reflect Security Concerns](../ref/modaf/20090521_MODAF_1_2_FAQs_How_MODAF_Can_Reflect_Security_Concerns_V1_0_U-withdrawn.pdf)
+- [Unified Modeling Language (UML) Relation to MODAF](../ref/modaf/20090520_MODAF_1_2FAQs_UML_Relation_To_MODAF_V1_0_U-withdrawn.pdf)
+- [Coherency across Models with MODAF](../ref/modaf/20090520_MODAF_1_2_FAQs_Coherency_Across_ModelsWithMODAF_V1_0_U-withdrawn.pdf)
+- [Sharing Architecture Data](../ref/modaf/20090520_MODAF1_2_FAQs_Sharing_Architecture_Data_V1_0_U.pdf)
+- [Other Frequently Asked Questions](../ref/modaf/20081023_MODAF_FAQs_V1_0_U-withdrawn.pdf)
+
+Other MODAF Reference:
+- [MODAF Website Download V1.2 004](../ref/modaf/20100602MODAFDownload12004.pdf)
+- [MODAF 1.2 Version History V1.0](../ref/modaf/20090518_MODAF_1_2_Version_History_V1_0_U-withdrawn.pdf)
+- [MODAF 1.2 004 Change Log](../ref/modaf/20100426MODAF1_2_004ChangeLog-withdrawn.pdf)
+
+## NAF V4
+
+URL: https://www.nato.int/en/about-us/organization/nato-structure/digital-policy-committee-dpc/nato-architecture-framework-version
+
+Current version is V4.1 as of March 2026.
+
+You can find the downloaded documents here: [NAF V4.1](../ref/naf/)
 
 ## DoDAF - Department of Defense Architecture Framework (US)
 
