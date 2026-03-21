@@ -67,6 +67,7 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 - [Protege / Protégé Desktop](https://protege.stanford.edu/software.php#desktop-protege)
 - [Neo4j Graph Database](https://neo4j.com/product/neo4j-graph-database/)
   - [Neo4j Deployment Center](https://neo4j.com/deployment-center/)
+  - [Graph prototyping - arrows.app](https://arrows.app/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## Contents for the Meta-Model
