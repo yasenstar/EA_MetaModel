@@ -1,0 +1,3 @@
+﻿source,relation,target
+Business_Principles,SUPPORTS,Business_Objectives
+Business_Objectives,IS_SUPPORTED_BY,Business_Principles
