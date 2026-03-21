@@ -66,6 +66,7 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 - [Essential Open Source EA Tool](https://enterprise-architecture.org/products/essential-open-source/)
 - [Protege / Protégé Desktop](https://protege.stanford.edu/software.php#desktop-protege)
 - [Neo4j Graph Database](https://neo4j.com/product/neo4j-graph-database/)
+  - [Neo4j Deployment Center](https://neo4j.com/deployment-center/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## Contents for the Meta-Model
@@ -79,4 +80,4 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 Stay tunes, feel free to raise your comments and suggestions! 
 Thanks for supporting me!
 
-Last updated by Xiaoqi Zhao, 3/18/2026
+Last updated by Xiaoqi Zhao, 3/21/2026
