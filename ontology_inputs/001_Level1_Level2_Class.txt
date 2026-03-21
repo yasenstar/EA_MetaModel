@@ -1,0 +1,16 @@
+Business_Layer
+	Business_Conceptual
+	Business_Logical
+	Business_Phisical
+Application_Layer
+	Application_Conceptual
+	Application_Logical
+	Application_Phisical
+Information_Layer
+	Information_Conceptual
+	Information_Logical
+	Information_Phisical
+Technology_Layer
+	Technology_Conceptual
+	Technology_Logical
+	Technology_Phisical

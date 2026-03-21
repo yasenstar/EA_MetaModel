@@ -1,0 +1,34 @@
+Business_Capability
+Business_Domain
+Business_Driver
+Business_Model
+Business_Model_Directive
+Business_Objective_Type
+	Business_Goal
+		Business_Model_Goal
+	Business_Objective
+Business_Principle
+Business_Role_type
+Business_Business_Event
+	External_Conceptual_Business_Event
+	Time_Based_Conceptual_Business_Event
+Conceptual_Business_Model
+	Business_Capability_Chain
+	Business_Capability_Chain_Type
+		Business_Capability_Usage
+		Conceptual_Business_Event_Usage
+			Intiating_Conceptual_Business_Event_Usage
+			Raised_Conceptual_Business_Event_Usage
+		End_Business_Capability_Chain
+		Start_Business_Capability_Chain
+	Business_Model_Architecture
+	Business_Model_Architecture_Types
+		Business_Model_Application_Usage
+		Business_Model_Business_Usage
+		Business_Model_Information_Usage
+		Business_Model_Role_Usage
+		Business_Model_Technology_Usage
+Product_Concept
+Skill_type
+Value_Stage
+Value_Stream
