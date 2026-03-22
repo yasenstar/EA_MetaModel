@@ -24,11 +24,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_SUPERDEDED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_SUPERDEDED_BY">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPERSEDES"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_SUPPORTED_BY -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_SUPPORTED_BY">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPPORTS"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPERSEDES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPERSEDES"/>
     
 
 
@@ -460,6 +474,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
         <eamm:IS_SUPPORTED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Principle"/>
+        <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
     </owl:NamedIndividual>
     
 
