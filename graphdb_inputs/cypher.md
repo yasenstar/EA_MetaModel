@@ -30,13 +30,14 @@ ON MATCH SET
 ```SQL
 LOAD CSV WITH HEADERS FROM 'file:///D:/github/EA_MetaModel/graphdb_inputs/meta-model.csv' AS row
 MERGE (s:$(row.source) {
-    Name: row.source,
-    Label: row.source_label
+    Name: row.source
 })
 MERGE (t:$(row.target) {
-    Name: row.target,
-    Label: row.target_label
+    Name: row.target
 })
+SET
+    s.Label: row.source_label,
+    t.Label: row.target_label
 MERGE (s)-[r:$(row.relation)]->(t)
 ON CREATE SET 
     s.createdAt = datetime(),

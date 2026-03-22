@@ -24,6 +24,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#HAS_APPLICATION_IMPLICATIONS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#HAS_APPLICATION_IMPLICATIONS"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_MOTIVATED_BY -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_MOTIVATED_BY">
@@ -130,7 +136,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Driver">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Conceptual"/>
-        <rdfs:comment>Class to define and manage the internal and external influences that motivate the Application Objectives.</rdfs:comment>
     </owl:Class>
     
 
@@ -541,10 +546,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Driver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Driver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Driver"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
+        <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Driver -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Driver">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Driver"/>
+        <eamm:HAS_APPLICATION_IMPLICATIONS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Driver"/>
         <eamm:MOTIVATES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
     </owl:NamedIndividual>
     
@@ -554,6 +577,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
+        <eamm:IS_SUPPORTED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
         <eamm:IS_SUPPORTED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Principle"/>
         <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
     </owl:NamedIndividual>
@@ -576,6 +600,9 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Driver">
+        <rdfs:comment>Class to define and manage the internal and external influences that motivate the Application Objectives.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Driver">
         <rdfs:comment>Class to manage business drivers (internal and external influences) which motivate the organization to its business objectives.</rdfs:comment>
     </rdf:Description>
