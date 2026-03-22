@@ -8,6 +8,7 @@ Master EAS Meta-Model from Ontology and Graph Perspective
   - [Approaching of Modeling](#approaching-of-modeling)
   - [Toolsets for Modeling](#toolsets-for-modeling)
   - [Contents for the Meta-Model](#contents-for-the-meta-model)
+  - [Recorded Video Demos](#recorded-video-demos)
 
 ## About EAS Meta-Model
 
@@ -75,6 +76,10 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 - [Meta Model in wikipedia](https://en.wikipedia.org/wiki/Metamodeling)
 - [Metamodels in ISO 42010](./ref/Hilliard-On-Metamodels-in-42010.pdf): Check here for [ISO 42010](https://www.iso.org/standard/74393.html)
 - [Enterprise Architecture Reference Frameworks](./eaframeworks/README.md)
+
+## Recorded Video Demos
+
+In YouTube Channel: https://www.youtube.com/playlist?list=PL6DEHvciXKeWsNkGovpyrPlj8AXem8wJK
 
 ---
 
