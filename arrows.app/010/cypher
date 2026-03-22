@@ -1,0 +1,2 @@
+CREATE (Business_Principle)-[:SUPPORTS]->(Business_Objective)-[:IS_SUPPORTED_BY]->(Business_Principle),
+(Business_Objective)-[:SUPERSEDES]->(Business_Objective)-[:IS_SUPERSEDED_BY]->(Business_Objective)<-[:MOTIVATES]-()<-[:IS_MOTIVATED_BY]-(Business_Objective)
