@@ -1,0 +1,7 @@
+Application_Architecture_Principle
+Application_Capability
+Application_Domain
+Application_Driver
+Application_Objective_Type
+	Application_Architecture_Goal
+	Application_Architecture_Objective
