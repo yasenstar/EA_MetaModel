@@ -3,3 +3,5 @@ Business_Principles,SUPPORTS,Business_Objectives
 Business_Objectives,IS_SUPPORTED_BY,Business_Principles
 Business_Objectives,SUPERSEDES,Business_Objectives
 Business_Objectives,IS_SUPERSEDED_BY,Business_Objectives
+Business_Objectives,IS_MOTIVATED_BY,Business_Driver
+Business_Driver,MOTIVATES,Business_Objectives
