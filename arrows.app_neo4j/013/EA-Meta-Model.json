@@ -1,0 +1,257 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -93.16604303611683,
+        "y": -233.3083115061144
+      },
+      "caption": "Business_Objective",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 176.9855513825915,
+        "y": -450.37152861815207
+      },
+      "caption": "Business_Principle",
+      "style": {},
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": -137.95404251001082,
+        "y": 20.59215466963434
+      },
+      "caption": "Business_Driver",
+      "style": {},
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": -517.9800927209885,
+        "y": -76.40784533036566
+      },
+      "caption": "Application_Driver",
+      "style": {},
+      "labels": [
+        "Application_Conceptual"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 234.64831123760246,
+        "y": -120.89802139839173
+      },
+      "caption": "Business_Capability",
+      "style": {},
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 528.0852142071551,
+        "y": -393.4947704335093
+      },
+      "caption": "Skill_Type",
+      "style": {},
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "type": "SUPPORTS",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n0"
+    },
+    {
+      "id": "n1",
+      "type": "IS_SUPPORTED_BY",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n1"
+    },
+    {
+      "id": "n2",
+      "type": "SUPERSEDES",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n0"
+    },
+    {
+      "id": "n3",
+      "type": "IS_SUPERSEDED_BY",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n0"
+    },
+    {
+      "id": "n4",
+      "type": "MOTIVATES",
+      "style": {},
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n0"
+    },
+    {
+      "id": "n5",
+      "type": "IS_MOTIVATED_BY",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n2"
+    },
+    {
+      "id": "n6",
+      "type": "HAS_APPLICATION_IMPLICATIONS",
+      "style": {},
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n3"
+    },
+    {
+      "id": "n7",
+      "type": "SUPPORTS",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n0"
+    },
+    {
+      "id": "n8",
+      "type": "IS_SUPPORTED_BY",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n4"
+    },
+    {
+      "id": "n9",
+      "type": "SUPERSEDES",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n4"
+    },
+    {
+      "id": "n10",
+      "type": "IS_SUPERSEDED_BY",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n4"
+    },
+    {
+      "id": "n11",
+      "type": "SUPPORTS",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n1"
+    },
+    {
+      "id": "n12",
+      "type": "IS_SUPPORTED_BY",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n4"
+    },
+    {
+      "id": "n13",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n5"
+    },
+    {
+      "id": "n14",
+      "type": "IS_REQUIRED_BY",
+      "style": {},
+      "properties": {},
+      "fromId": "n5",
+      "toId": "n4"
+    }
+  ]
+}

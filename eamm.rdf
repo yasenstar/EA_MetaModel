@@ -38,6 +38,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_REQUIRED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_REQUIRED_BY">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#REQUIRES"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_SUPERDEDED_BY -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IS_SUPERDEDED_BY">
@@ -57,6 +65,12 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#MOTIVATES -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#MOTIVATES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#REQUIRES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#REQUIRES"/>
     
 
 
@@ -465,9 +479,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_type -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_type">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Conceptual"/>
     </owl:Class>
     
@@ -558,6 +572,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
+        <eamm:REQUIRES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type"/>
         <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
     </owl:NamedIndividual>
     
@@ -588,6 +603,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Principle">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Principle"/>
+        <eamm:IS_SUPPORTED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type"/>
     </owl:NamedIndividual>
     
 
@@ -603,6 +627,10 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Driver">
         <rdfs:comment>Class to define and manage the internal and external influences that motivate the Application Objectives.</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability">
+        <rdfs:comment>Models the capabilities of a business or enterprise.
+Capabilities belong to business domains and represent the services that a business offers or requires or Business Process &quot;areas&quot;</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Driver">
         <rdfs:comment>Class to manage business drivers (internal and external influences) which motivate the organization to its business objectives.</rdfs:comment>
     </rdf:Description>
@@ -611,6 +639,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Principle">
         <rdfs:comment>High level rules that govern the manner in which business capabilities are delivered by the enterprise</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type">
+        <rdfs:comment>Conceptual class that is used to provide a taxonomy and semantic grounding for business skill instances.
+Instances of Skill_Type should be readily understood without any specialist knowledge.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
         <rdfs:label>EAMM</rdfs:label>
@@ -667,7 +699,7 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_type"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Conceptual_Business_Model"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Concept"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stage"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stream"/>
         </owl:members>
