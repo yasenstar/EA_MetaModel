@@ -9,7 +9,7 @@ Business_Objective_Type
 	Business_Objective
 Business_Principle
 Business_Role_type
-Business_Business_Event
+Conceptual_Business_Event
 	External_Conceptual_Business_Event
 	Time_Based_Conceptual_Business_Event
 Conceptual_Business_Model
