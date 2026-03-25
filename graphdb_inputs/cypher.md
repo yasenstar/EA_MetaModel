@@ -36,8 +36,8 @@ MERGE (t:$(row.target) {
     Name: row.target
 })
 SET
-    s.Label: row.source_label,
-    t.Label: row.target_label
+    s.Label = row.source_label,
+    t.Label = row.target_label
 MERGE (s)-[r:$(row.relation)]->(t)
 ON CREATE SET 
     s.createdAt = datetime(),
