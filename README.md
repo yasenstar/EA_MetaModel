@@ -66,6 +66,8 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 
 - [Essential Open Source EA Tool](https://enterprise-architecture.org/products/essential-open-source/)
 - [Protege / Protégé Desktop](https://protege.stanford.edu/software.php#desktop-protege)
+- [arrows.app](https://arrows.app)
+  - [working Ea-Meta-Model](https://drive.google.com/file/d/133sdZvA2PjRdurcS83vqXixar4hsjwQz/view?usp=drivesdk)
 - [Neo4j Graph Database](https://neo4j.com/product/neo4j-graph-database/)
   - [Neo4j Deployment Center](https://neo4j.com/deployment-center/)
   - [Graph prototyping - arrows.app](https://arrows.app/)
@@ -85,5 +87,3 @@ In YouTube Channel: https://www.youtube.com/playlist?list=PL6DEHvciXKeWsNkGovpyr
 
 Stay tunes, feel free to raise your comments and suggestions! 
 Thanks for supporting me!
-
-Last updated by Xiaoqi Zhao, 3/21/2026
