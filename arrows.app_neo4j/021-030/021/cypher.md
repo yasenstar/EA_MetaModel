@@ -1,0 +1,45 @@
+# CREATE
+
+```sql
+CREATE (Business_Principle:Business_Conceptual)-[:SUPPORTS]->(Business_Objective:Business_Conceptual)-[:SUPPORTED_BY]->(Business_Principle)<-[:SUPPORTS]-(Business_Capability:Business_Conceptual)<-[:SUPPORTED_BY]-(Business_Principle),
+(Business_Objective)-[:SUPERSEDES]->(Business_Objective)-[:SUPERSEDED_BY]->(Business_Objective)<-[:MOTIVATES]-(Business_Driver:Business_Conceptual)<-[:MOTIVATED_BY]-(Business_Objective)<-[:SUPPORTS]-(Business_Capability)<-[:SUPPORTED_BY]-(Business_Objective)<-[:STRATEGIC_OBJECTIVES]-(`Business_Domain `:Business_Conceptual)<-[:OBJECTIVE_FOR_BUSINESS_DOMAINS]-(Business_Objective),
+(Business_Driver)-[:HAS_APPLICATION_IMPLICATIONS]->(:Application_Conceptual),
+(External_Conceptual_Business_Event:Business_Conceptual)<-[:RAISES]-(:Business_Conceptual)-[:MEMBERS_OF]->(`Business_Role_Type `:Business_Conceptual)-[:PROVIDES]->(Business_Capability)-[:SUPERSEDES]->(Business_Capability)-[:SUPERSEDED_BY]->(Business_Capability)-[:REQUIRES]->(:Business_Conceptual)-[:REQUIRED_BY]->(Business_Capability)<-[:CONTAINS]-(`Business_Domain `)<-[:BELONGS_TO]-(Business_Capability)<-[:SUPPORTS]-(:Application_Conceptual)<-[:SUPPORTED_BY]-(Business_Capability)<-[:SUPPORTED_BY]-(:Business_Conceptual),
+(`Business_Domain `)-[:SUPERSEDES]->(`Business_Domain `)-[:SUPERSEDED_BY]->(`Business_Domain `),
+(External_Conceptual_Business_Event)-[:MEMBERS_OF]->(:Business_Conceptual)<-[:MEMBERS_OF]-(:Business_Conceptual),
+(Business_Capability_Chain:Business_Conceptual)<-[:DEFINED_BY]-(Business_Capability)<-[:DEFINES]-(Business_Capability_Chain)-[:MEMBERS_OF]->(:Business_Conceptual)<-[:MEMBERS_OF]-(Business_Capability_Chain_Type:Business_Conceptual)<-[:USES]-(Business_Capability_Chain)<-[:USED_BY]-(Business_Capability_Chain_Type),
+(Value_Stream:Business_Conceptual)-[:TRIGGERED_BY]->(Business_Role:Business_Logical)-[:TRIGGERS]->(Value_Stream)-[:CONTRAINS]->(Value_Stage:Business_Conceptual)-[:BELONGS_TO]->(Value_Stream)<-[:TRIGGERS]-(`Business_Role_Type `)<-[:TRIGGERED_BY]-(Value_Stream),
+(Business_Role)-[:PARTICIPATES]->(Value_Stage)-[:SUPERSEDES]->(Value_Stage)-[:SUPERSEDED_BY]->(Value_Stage)-[:REQUIRES]->(Business_Capability)-[:REQUIRED_BY]->(Value_Stage)<-[:PARTICIPATES]-(`Business_Role_Type `)<-[:PARTICIPATED_BY]-(Value_Stage)-[:PARTICIPATED_BY]->(Business_Role),
+(Business_Role)-[:REALIZES]->(`Business_Role_Type `)-[:REALIZED_BY]->(Business_Role)
+```
+
+# MATCH
+
+```sql
+MATCH path0 = (Business_Principle:Business_Conceptual)-[:SUPPORTS]->(Business_Objective:Business_Conceptual)-[:SUPPORTED_BY]->(Business_Principle)<-[:SUPPORTS]-(Business_Capability:Business_Conceptual)<-[:SUPPORTED_BY]-(Business_Principle),
+path1 = (Business_Objective)-[:SUPERSEDES]->(Business_Objective)-[:SUPERSEDED_BY]->(Business_Objective)<-[:MOTIVATES]-(Business_Driver:Business_Conceptual)<-[:MOTIVATED_BY]-(Business_Objective)<-[:SUPPORTS]-(Business_Capability)<-[:SUPPORTED_BY]-(Business_Objective)<-[:STRATEGIC_OBJECTIVES]-(`Business_Domain `:Business_Conceptual)<-[:OBJECTIVE_FOR_BUSINESS_DOMAINS]-(Business_Objective),
+path2 = (Business_Driver)-[:HAS_APPLICATION_IMPLICATIONS]->(:Application_Conceptual),
+path3 = (External_Conceptual_Business_Event:Business_Conceptual)<-[:RAISES]-(:Business_Conceptual)-[:MEMBERS_OF]->(`Business_Role_Type `:Business_Conceptual)-[:PROVIDES]->(Business_Capability)-[:SUPERSEDES]->(Business_Capability)-[:SUPERSEDED_BY]->(Business_Capability)-[:REQUIRES]->(:Business_Conceptual)-[:REQUIRED_BY]->(Business_Capability)<-[:CONTAINS]-(`Business_Domain `)<-[:BELONGS_TO]-(Business_Capability)<-[:SUPPORTS]-(:Application_Conceptual)<-[:SUPPORTED_BY]-(Business_Capability)<-[:SUPPORTED_BY]-(:Business_Conceptual),
+path4 = (`Business_Domain `)-[:SUPERSEDES]->(`Business_Domain `)-[:SUPERSEDED_BY]->(`Business_Domain `),
+path5 = (External_Conceptual_Business_Event)-[:MEMBERS_OF]->(:Business_Conceptual)<-[:MEMBERS_OF]-(:Business_Conceptual),
+path6 = (Business_Capability_Chain:Business_Conceptual)<-[:DEFINED_BY]-(Business_Capability)<-[:DEFINES]-(Business_Capability_Chain)-[:MEMBERS_OF]->(:Business_Conceptual)<-[:MEMBERS_OF]-(Business_Capability_Chain_Type:Business_Conceptual)<-[:USES]-(Business_Capability_Chain)<-[:USED_BY]-(Business_Capability_Chain_Type),
+path7 = (Value_Stream:Business_Conceptual)-[:TRIGGERED_BY]->(Business_Role:Business_Logical)-[:TRIGGERS]->(Value_Stream)-[:CONTRAINS]->(Value_Stage:Business_Conceptual)-[:BELONGS_TO]->(Value_Stream)<-[:TRIGGERS]-(`Business_Role_Type `)<-[:TRIGGERED_BY]-(Value_Stream),
+path8 = (Business_Role)-[:PARTICIPATES]->(Value_Stage)-[:SUPERSEDES]->(Value_Stage)-[:SUPERSEDED_BY]->(Value_Stage)-[:REQUIRES]->(Business_Capability)-[:REQUIRED_BY]->(Value_Stage)<-[:PARTICIPATES]-(`Business_Role_Type `)<-[:PARTICIPATED_BY]-(Value_Stage)-[:PARTICIPATED_BY]->(Business_Role),
+path9 = (Business_Role)-[:REALIZES]->(`Business_Role_Type `)-[:REALIZED_BY]->(Business_Role)
+RETURN path0, path1, path2, path3, path4, path5, path6, path7, path8, path9
+```
+
+# MERGE
+
+```sql
+MERGE (Business_Principle:Business_Conceptual)-[:SUPPORTS]->(Business_Objective:Business_Conceptual)-[:SUPPORTED_BY]->(Business_Principle)<-[:SUPPORTS]-(Business_Capability:Business_Conceptual)<-[:SUPPORTED_BY]-(Business_Principle)
+MERGE (Business_Objective)-[:SUPERSEDES]->(Business_Objective)-[:SUPERSEDED_BY]->(Business_Objective)<-[:MOTIVATES]-(Business_Driver:Business_Conceptual)<-[:MOTIVATED_BY]-(Business_Objective)<-[:SUPPORTS]-(Business_Capability)<-[:SUPPORTED_BY]-(Business_Objective)<-[:STRATEGIC_OBJECTIVES]-(`Business_Domain `:Business_Conceptual)<-[:OBJECTIVE_FOR_BUSINESS_DOMAINS]-(Business_Objective)
+MERGE (Business_Driver)-[:HAS_APPLICATION_IMPLICATIONS]->(:Application_Conceptual)
+MERGE (External_Conceptual_Business_Event:Business_Conceptual)<-[:RAISES]-(:Business_Conceptual)-[:MEMBERS_OF]->(`Business_Role_Type `:Business_Conceptual)-[:PROVIDES]->(Business_Capability)-[:SUPERSEDES]->(Business_Capability)-[:SUPERSEDED_BY]->(Business_Capability)-[:REQUIRES]->(:Business_Conceptual)-[:REQUIRED_BY]->(Business_Capability)<-[:CONTAINS]-(`Business_Domain `)<-[:BELONGS_TO]-(Business_Capability)<-[:SUPPORTS]-(:Application_Conceptual)<-[:SUPPORTED_BY]-(Business_Capability)<-[:SUPPORTED_BY]-(:Business_Conceptual)
+MERGE (`Business_Domain `)-[:SUPERSEDES]->(`Business_Domain `)-[:SUPERSEDED_BY]->(`Business_Domain `)
+MERGE (External_Conceptual_Business_Event)-[:MEMBERS_OF]->(:Business_Conceptual)<-[:MEMBERS_OF]-(:Business_Conceptual)
+MERGE (Business_Capability_Chain:Business_Conceptual)<-[:DEFINED_BY]-(Business_Capability)<-[:DEFINES]-(Business_Capability_Chain)-[:MEMBERS_OF]->(:Business_Conceptual)<-[:MEMBERS_OF]-(Business_Capability_Chain_Type:Business_Conceptual)<-[:USES]-(Business_Capability_Chain)<-[:USED_BY]-(Business_Capability_Chain_Type)
+MERGE (Value_Stream:Business_Conceptual)-[:TRIGGERED_BY]->(Business_Role:Business_Logical)-[:TRIGGERS]->(Value_Stream)-[:CONTRAINS]->(Value_Stage:Business_Conceptual)-[:BELONGS_TO]->(Value_Stream)<-[:TRIGGERS]-(`Business_Role_Type `)<-[:TRIGGERED_BY]-(Value_Stream)
+MERGE (Business_Role)-[:PARTICIPATES]->(Value_Stage)-[:SUPERSEDES]->(Value_Stage)-[:SUPERSEDED_BY]->(Value_Stage)-[:REQUIRES]->(Business_Capability)-[:REQUIRED_BY]->(Value_Stage)<-[:PARTICIPATES]-(`Business_Role_Type `)<-[:PARTICIPATED_BY]-(Value_Stage)-[:PARTICIPATED_BY]->(Business_Role)
+MERGE (Business_Role)-[:REALIZES]->(`Business_Role_Type `)-[:REALIZED_BY]->(Business_Role)
+```

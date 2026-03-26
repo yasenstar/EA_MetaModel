@@ -1,0 +1,60 @@
+Brand
+Business_Condition
+Business_Event
+	External_Business_Event
+	Time_Based_Business_Event
+Business_Model_Configuration
+Business_Process_Family
+Business_Process_Type
+	Business_Activity
+	Business_Process
+	Business_Task
+Business_Role
+	Group_Business_Role
+	Individual_Business_Role
+Business_Rule
+Channel
+Channel_Type
+Customer_Journey
+Customer_Journey_Phase
+Customer_Segment
+Logical_Business_Model
+	Business_Activity_Flow
+	Business_Activity_Flow_Type
+		Business_Event_Usage_In_Activity
+			Initiating_Business_Event_Usage_In_Activity
+			Raised_Business_Event_Usage_In_Activity
+		Business_Task_Usage
+		End_Activity_Flow
+		Start_Activity_Flow
+	Business_Model_Configuration_Architecture
+	Business_Model_Configuration_Architecture_Type
+		Application_Reference_Implementation_Config_Usage
+		Business_Reference_Architecture_Config_Usage
+	Business_Process_Flow
+	Business_Process_Flow_Type
+		Business_Activity_Usage
+		Business_Event_Usage_In_Process
+			Initiating_Business_Event_Usage_In_Process
+			Intermediary_Business_Event_Usage_In_Process
+			Raised_Business_Event_Usage_In_Process
+		Business_Process_Flow_Decision
+		Business_Process_Usage
+		Business_Role_Conductor_In_Process
+		Business_Role_Usage_In_Process
+		End_Process_Flow
+		Information_View_Usage_In_Process
+		Start_Process_Flow
+	Static_Product_Architecture
+	Static_Product_Architecture_Type
+		Static_Product_Usage
+	Static_Product_Type_Architecture
+	Static_Product_Type_Architecture_Type
+		Static_Product_Type_Usage
+Product
+	Composite_Product
+Product_Feature
+Product_Feature_Implementation
+Product_Type
+	Composite_Product_Type
+Site_Category

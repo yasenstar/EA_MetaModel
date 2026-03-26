@@ -80,6 +80,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PARTICIPATED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PARTICIPATED_BY">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PARTICIPATES"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PARTICIPATES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PARTICIPATES"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PROVIDED_BY -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PROVIDED_BY">
@@ -105,6 +119,20 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#RAISES -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#RAISES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#REALIZED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#REALIZED_BY">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#REALIZES"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#REALIZES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#REALIZES"/>
     
 
 
@@ -153,6 +181,20 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPPORTS -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPPORTS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#TRIGGERED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#TRIGGERED_BY">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#TRIGGERS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#TRIGGERS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#TRIGGERS"/>
     
 
 
@@ -268,6 +310,55 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Reference_Implementation_Config_Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Reference_Implementation_Config_Usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration_Architecture_Type"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Reference_Architecture_Config_Usage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Brand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability">
@@ -308,6 +399,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Domain -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Domain">
@@ -320,6 +419,30 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Driver">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
     </owl:Class>
     
 
@@ -383,6 +506,30 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Business_Usage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Architecture_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration_Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration_Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration_Architecture_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration_Architecture_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
     </owl:Class>
     
 
@@ -461,10 +608,154 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Decision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Decision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Reference_Architecture_Config_Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Reference_Architecture_Config_Usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration_Architecture_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Conductor_In_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Conductor_In_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Type -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Type">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Usage_In_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Usage_In_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Rule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Task">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Task_Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Task_Usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Channel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Channel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Channel_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Channel_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Composite_Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Composite_Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Composite_Product_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Composite_Product_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Type"/>
     </owl:Class>
     
 
@@ -495,10 +786,50 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Customer_Journey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Customer_Journey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Customer_Journey_Phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Customer_Journey_Phase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Customer_Segment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Customer_Segment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Activity_Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Activity_Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow_Type"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Business_Capability_Chain -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Business_Capability_Chain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability_Chain_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Process_Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Process_Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
     </owl:Class>
     
 
@@ -512,11 +843,37 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Business_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Business_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Time_Based_Business_Event"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Conceptual_Business_Event -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Conceptual_Business_Event">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Conceptual_Business_Event"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Time_Based_Conceptual_Business_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Group_Business_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Group_Business_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Individual_Business_Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Individual_Business_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Individual_Business_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
     </owl:Class>
     
 
@@ -551,6 +908,39 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_View_Usage_In_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_View_Usage_In_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Initiating_Business_Event_Usage_In_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Initiating_Business_Event_Usage_In_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Activity"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Raised_Business_Event_Usage_In_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Initiating_Business_Event_Usage_In_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Initiating_Business_Event_Usage_In_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Intermediary_Business_Event_Usage_In_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Intermediary_Business_Event_Usage_In_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Process"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Internal_Business_Role_Type -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Internal_Business_Role_Type">
@@ -568,10 +958,66 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Concept -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Concept">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Feature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Feature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Feature_Implementation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Feature_Implementation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Raised_Business_Event_Usage_In_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Raised_Business_Event_Usage_In_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Raised_Business_Event_Usage_In_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Raised_Business_Event_Usage_In_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Process"/>
     </owl:Class>
     
 
@@ -584,6 +1030,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type">
@@ -592,10 +1046,74 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Start_Activity_Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Start_Activity_Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow_Type"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Start_Business_Capability_Chain -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Start_Business_Capability_Chain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability_Chain_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Start_Process_Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Start_Process_Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Architecture_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Architecture_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Type_Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Type_Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Type_Architecture_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Type_Architecture_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Type_Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Type_Usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Type_Architecture_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Architecture_Type"/>
     </owl:Class>
     
 
@@ -626,6 +1144,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Technology_Phisical">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Technology_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Time_Based_Business_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Time_Based_Business_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event"/>
     </owl:Class>
     
 
@@ -777,11 +1303,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
+        <eamm:PARTICIPATES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stage"/>
+        <eamm:REALIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Type"/>
+        <eamm:TRIGGERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stream"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Type -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Type">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Type"/>
+        <eamm:PARTICIPATES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stage"/>
         <eamm:PROVIDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
+        <eamm:TRIGGERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stream"/>
     </owl:NamedIndividual>
     
 
@@ -892,6 +1431,11 @@ It provides a means of categorizing business related elements independent of the
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Principle">
         <rdfs:comment>High level rules that govern the manner in which business capabilities are delivered by the enterprise</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role">
+        <rdfs:comment>Used to represent the logical design of the organization in terms of the roles that are required.
+Group Business Roles represent a collection of responsibilities that are taken on by organization.
+Individual Business Roles are responsbilities that you would expect to be taken on by an individual or individuals.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Type">
         <rdfs:comment>Business Role types are used to define a taxonomy for Business Roles</rdfs:comment>
     </rdf:Description>
@@ -959,6 +1503,67 @@ Instances of Skill_Type should be readily understood without any specialist know
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Brand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Condition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Family"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Rule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Channel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Channel_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Customer_Journey"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Customer_Journey_Phase"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Customer_Segment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Feature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Feature_Implementation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Task"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Flow_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration_Architecture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration_Architecture_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Architecture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Architecture_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Type_Architecture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Static_Product_Type_Architecture_Type"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity_Usage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Flow_Decision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Usage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Conductor_In_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Usage_In_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Process_Flow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_View_Usage_In_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Start_Process_Flow"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Domain"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Driver"/>
@@ -1004,6 +1609,15 @@ Instances of Skill_Type should be readily understood without any specialist know
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Event_Usage_In_Activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Task_Usage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Activity_Flow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Start_Activity_Flow"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Application_Usage"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Business_Usage"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Information_Usage"/>
@@ -1017,6 +1631,14 @@ Instances of Skill_Type should be readily understood without any specialist know
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_Conceptual"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_Logical"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_Phisical"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Initiating_Business_Event_Usage_In_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Intermediary_Business_Event_Usage_In_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Raised_Business_Event_Usage_In_Process"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
