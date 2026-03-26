@@ -156,9 +156,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPERDEDED_BY -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPERSEDED_BY -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPERDEDED_BY">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPERSEDED_BY">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#SUPERSEDES"/>
     </owl:ObjectProperty>
     
@@ -1220,7 +1220,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Layer"/>
         <eamm:BELONGS_TO rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Domain"/>
         <eamm:REQUIRES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type"/>
-        <eamm:SUPERDEDED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
+        <eamm:SUPERSEDED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
         <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
         <eamm:SUPPORTED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Capability"/>
         <eamm:SUPPORTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
@@ -1256,7 +1256,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Layer"/>
         <eamm:CONTAINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
         <eamm:STRATEGIC_OBJECTIVES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
-        <eamm:SUPERDEDED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Domain"/>
+        <eamm:SUPERSEDED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Domain"/>
         <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Domain"/>
     </owl:NamedIndividual>
     
@@ -1283,7 +1283,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective_Type"/>
         <eamm:MOTIVATED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Driver"/>
         <eamm:OBJECTIVE_FOR_BUSINESS_DOMAINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Domain"/>
-        <eamm:SUPERDEDED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
+        <eamm:SUPERSEDED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
         <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Objective"/>
         <eamm:SUPPORTED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability"/>
         <eamm:SUPPORTED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Principle"/>
@@ -1308,7 +1308,9 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
         <eamm:PARTICIPATES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stage"/>
+        <eamm:RAISES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Business_Event"/>
         <eamm:REALIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Type"/>
+        <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
         <eamm:TRIGGERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stream"/>
     </owl:NamedIndividual>
     
@@ -1330,6 +1332,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Busienss_Role_Type">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Busienss_Role_Type"/>
         <eamm:RAISES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Conceptual_Business_Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Business_Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Business_Event">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Business_Event"/>
     </owl:NamedIndividual>
     
 
