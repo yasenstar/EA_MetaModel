@@ -9,6 +9,7 @@ Master EAS Meta-Model from Ontology and Graph Perspective
   - [Toolsets for Modeling](#toolsets-for-modeling)
   - [Contents for the Meta-Model](#contents-for-the-meta-model)
   - [Recorded Video Demos](#recorded-video-demos)
+  - [👨‍💻 Xiaoqi Zhao (Yasen) — Enterprise Architect \& Builder](#-xiaoqi-zhao-yasen--enterprise-architect--builder)
 
 ## About EAS Meta-Model
 
@@ -82,6 +83,15 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 ## Recorded Video Demos
 
 In YouTube Channel: https://www.youtube.com/playlist?list=PL6DEHvciXKeWsNkGovpyrPlj8AXem8wJK
+
+## 👨‍💻 Xiaoqi Zhao (Yasen) — Enterprise Architect & Builder
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-USERNAME&label=Profile%20Views&color=0e76a8&style=flat" alt="Views" />
+  <img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
+  <img src="https://img.shields.io/badge/Certified-SABSA-red" alt="SABSA" />
+  <img src="https://img.shields.io/badge/Business%20Architecture%20Guild-Translator-green" alt="Guild" />
+</p>
 
 ---
 
