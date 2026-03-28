@@ -94,6 +94,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#OPERATES_AT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#OPERATES_AT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#OWNED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#OWNED_BY">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#OWNS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#OWNS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#OWNS"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PARTICIPATED_BY -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PARTICIPATED_BY">
@@ -105,6 +125,34 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PARTICIPATES -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PARTICIPATES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PERFORMED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PERFORMED_BY">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PERFORMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PERFORMS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PERFORMS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PRODUCED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PRODUCED_BY">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PRODUCES"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PRODUCES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PRODUCES"/>
     
 
 
@@ -345,6 +393,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Activity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
+        <rdfs:comment>An Elementary Business Process.
+These are processes that are performed by a single person (or system), in a single place at a single time.
+Business Activities represent specifications or designs of how activites should be performed.</rdfs:comment>
     </owl:Class>
     
 
@@ -626,6 +677,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
+        <rdfs:comment>Business Processes implement the Business Capabilities, and consist of Business Activities.
+Processes are performed by Business Roles.
+Business Processes represent specifications or designs of how processes should be performed.</rdfs:comment>
     </owl:Class>
     
 
@@ -722,6 +776,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Rule">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+        <rdfs:comment>Class to manage the definition of business rules.</rdfs:comment>
     </owl:Class>
     
 
@@ -730,6 +785,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Task">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
+        <rdfs:comment>A Business Task represents a step in a Business Activity.</rdfs:comment>
     </owl:Class>
     
 
@@ -1317,11 +1373,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Family -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Family">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Family"/>
+        <eamm:CONTAINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
+        <eamm:PRODUCES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Type"/>
+        <eamm:SUPPORTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stage"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
+        <eamm:OPERATES_AT rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category"/>
+        <eamm:OWNS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
         <eamm:PARTICIPATES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stage"/>
+        <eamm:PERFORMS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type"/>
         <eamm:RAISES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Business_Event"/>
         <eamm:REALIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role_Type"/>
         <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
@@ -1392,6 +1470,14 @@
         <eamm:INSTANCES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product"/>
         <eamm:REALIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Concept"/>
         <eamm:SUPPORTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category"/>
     </owl:NamedIndividual>
     
 
@@ -1474,6 +1560,14 @@ It provides a means of categorizing business related elements independent of the
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Principle">
         <rdfs:comment>High level rules that govern the manner in which business capabilities are delivered by the enterprise</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Family">
+        <rdfs:comment>Used to group business processes, activities or tasks that are variants of each other into a single &apos;family&apos;, allowing them to be distinct while at the same time ceonvetying that they are related.
+This provides a more powerful and flexible approach than using Enumerations or Taxonomies as it allows contextual information to be added, for example, Business Process X is a standard for the EMEA region within its Business Process Family</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process_Type">
+        <rdfs:comment>Super class of Business Process, Business Activity and Business Task.
+Can be used to generically refer to Business Process work constructs, e.g. Used for mapping relationships from Application constructs.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role">
         <rdfs:comment>Used to represent the logical design of the organization in terms of the roles that are required.
 Group Business Roles represent a collection of responsibilities that are taken on by organization.
@@ -1488,6 +1582,15 @@ Individual Business Roles are responsbilities that you would expect to be taken 
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Concept">
         <rdfs:comment>Class to define conceptual level representations of Products.
 Used to define fundamentally WAHT a typye of product is, e.g. a motor manufacturer, such as car, truck etc., whereas a service organization would define the classes of service that they provide.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Type">
+        <rdfs:comment>Class to capture types of products that are produced by the enterprise.
+Product Types are realizations of Product Concepts, and group the actual, physical products by type.
+E.g. in the motor manufacturer exampe, product types would by &quot;Car&quot;, &quot;Truck&quot; as realizations of the &quot;Vehicle&quot; concept.
+As a further example, a service company would define the types of a particular service (e.g. financial services) that they provide.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category">
+        <rdfs:comment>A type of site at which Business Roles operate, e.g. a factory, an office, a warehouse.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Skill_Type">
         <rdfs:comment>Conceptual class that is used to provide a taxonomy and semantic grounding for business skill instances.
