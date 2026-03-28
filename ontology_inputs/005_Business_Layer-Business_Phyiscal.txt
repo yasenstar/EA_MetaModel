@@ -1,0 +1,11 @@
+Actor
+	Group_Actor
+	Individual_Actor
+		Job_Position
+		Persona
+Physical_Business_Event
+	External_Physical_Business_Event
+Physical_Process_Type
+	Physical_Process
+	Physical_Activity
+Site
