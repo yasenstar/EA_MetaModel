@@ -142,6 +142,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PERFORMED_AT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PERFORMED_AT"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PERFORMED_BY -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#PERFORMED_BY">
@@ -971,6 +977,12 @@ Business Activities represent specifications or designs of how activites should 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Support"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Support_Relationship -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Support_Relationship">
@@ -1034,6 +1046,42 @@ Business Activities represent specifications or designs of how activites should 
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Physical_Business_Event">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Business_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#GeoCode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#GeoCode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geography"/>
+        <rdfs:comment>Manages a number representation format for geospatial coordinate measurments that provide details of the exact location of geospatial point at, below, or above the surface of the earth.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geographic_Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geographic_Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geographic_Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geographic_Region">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geography"/>
+        <rdfs:comment>Class to represent a geographical region.
+Regions can be classified by the Region Type taxonomy, enabling any real-world and arbitrary region to be defined and managed, e.g. Country, State, Continent, Geopolitical Region.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Utilities"/>
+        <rdfs:comment>Classes to represent and manage geopolitical regions and locations.</rdfs:comment>
     </owl:Class>
     
 
@@ -1432,6 +1480,14 @@ Business Activities represent specifications or designs of how activites should 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Utilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Utilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Support"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stage -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stage">
@@ -1670,10 +1726,20 @@ Business Activities represent specifications or designs of how activites should 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geographic_Location -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geographic_Location">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geographic_Location"/>
+        <eamm:CONTAINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity"/>
+        <eamm:PERFORMED_AT rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site"/>
         <eamm:PERFORMED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION"/>
         <eamm:STAKEHOLDERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION"/>
     </owl:NamedIndividual>
@@ -1685,6 +1751,7 @@ Business Activities represent specifications or designs of how activites should 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process"/>
         <eamm:IMPLEMENTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process"/>
+        <eamm:PERFORMED_AT rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site"/>
         <eamm:PERFORMED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION"/>
         <eamm:PERFORMED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor"/>
     </owl:NamedIndividual>
@@ -1727,6 +1794,16 @@ Business Activities represent specifications or designs of how activites should 
         <eamm:INSTANCES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product"/>
         <eamm:REALIZES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Concept"/>
         <eamm:SUPPORTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Value_Stream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site"/>
+        <eamm:INSTANCE_OF rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category"/>
+        <eamm:SUPERSEDES rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site"/>
     </owl:NamedIndividual>
     
 
@@ -1849,6 +1926,10 @@ Individual Business Roles are responsbilities that you would expect to be taken 
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Conceptual_Business_Event">
         <rdfs:comment>Class to represent Conceptual Events that are raised by parties external to the enterprise.</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Geographic_Location">
+        <rdfs:comment>Class to manage specific point geographical locations.
+Unlike the Geographical Region, locations have a geocode to identify that location, e.g. cities, towns, streets.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity">
         <rdfs:comment>An instance of a Business Activity that is performed by a group or individual in the enterprise.</rdfs:comment>
     </rdf:Description>
@@ -1874,6 +1955,9 @@ Used to define fundamentally WAHT a typye of product is, e.g. a motor manufactur
 Product Types are realizations of Product Concepts, and group the actual, physical products by type.
 E.g. in the motor manufacturer exampe, product types would by &quot;Car&quot;, &quot;Truck&quot; as realizations of the &quot;Vehicle&quot; concept.
 As a further example, a service company would define the types of a particular service (e.g. financial services) that they provide.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site">
+        <rdfs:comment>A specific (and named) physical location where processes or activities take place.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site_Category">
         <rdfs:comment>A type of site at which Business Roles operate, e.g. a factory, an office, a warehouse.</rdfs:comment>
