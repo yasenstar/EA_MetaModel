@@ -1,0 +1,38 @@
+Application_Family
+Application_Function
+Application_Provider_Role
+Application_Provider_Type
+    Application_Function_Implementation
+    Application_Provider
+        Application_Provider_Interface
+        Composite_Application_Provider
+Application_Service
+    Composite_Application_Service
+Logical_Application_Model
+    Application_Service_Architecture_Type
+        Application_Function_Usage
+        Application_Service_Usage
+        Business_Event_Usage_Application_Service
+            Initiating_Business_Event_Usage_In_Application_Service
+            Raised_Business_Event_Usage_In_Application_Service
+    Dynamic_Application_Provider_Architecture
+    Dynamic_Application_Provider_Architecture_Type
+        Dynamic_Application_Function_Implementation_Usage
+        Dynamic_Application_Provider_Usage
+        System_Event_Usage
+            Initiating_System_Event_Usage
+            Raised_System_Event_Usage
+    Dynamic_Application_Service_Architecture
+    Static_Application_Provider_Architecture
+    Static_Application_Provider_Architecture_Type
+        Static_Application_Function_Implementation_Usage
+        Static_Application_Provider_Usage
+    Static_Application_Service_Architecture
+Logical_Software_Architecture
+Logical_Software_Architecture_Type
+    Software_Component_Usage
+    Software_Information_Representation_Usage
+Software_Component_Usage
+System_Event
+    External_System_Event
+    Time_Based_System_Event

@@ -58,6 +58,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IMPLEMENTED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IMPLEMENTED_BY">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IMPLEMENTS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IMPLEMENTS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#IMPLEMENTS"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#INSTANCES -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#INSTANCES">
@@ -212,6 +226,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#STAKEHOLDERS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#STAKEHOLDERS">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#STAKEHOLDER_OF"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#STAKEHOLDER_OF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#STAKEHOLDER_OF"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#STRATEGIC_OBJECTIVES -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#STRATEGIC_OBJECTIVES"/>
@@ -274,6 +302,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#act_to_role_from_actor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#act_to_role_from_actor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#actor_plays_role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#act_to_role_to_role -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#act_to_role_to_role">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#bus_role_played_by_actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#actor_plays_role -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#actor_plays_role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#bus_role_played_by_actor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#bus_role_played_by_actor"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -282,6 +338,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Relationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Phisical"/>
+    </owl:Class>
     
 
 
@@ -377,6 +449,14 @@
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Reference_Implementation_Config_Usage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Model_Configuration_Architecture_Type"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Reference_Architecture_Config_Usage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Relation"/>
     </owl:Class>
     
 
@@ -737,6 +817,14 @@ Business Activities represent specifications or designs of how activites should 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Relation"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role">
@@ -877,6 +965,20 @@ Business Activities represent specifications or designs of how activites should 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Relation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Relation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Support_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Support_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Relation"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Activity_Flow -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#End_Activity_Flow">
@@ -928,11 +1030,36 @@ Business Activities represent specifications or designs of how activites should 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Physical_Business_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Physical_Business_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Business_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Group_Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Group_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Individual_Actor"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Group_Business_Role -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Group_Business_Role">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Individual_Business_Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Individual_Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Individual_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor"/>
     </owl:Class>
     
 
@@ -971,6 +1098,14 @@ Business Activities represent specifications or designs of how activites should 
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_Phisical">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Relation"/>
     </owl:Class>
     
 
@@ -1025,10 +1160,60 @@ Business Activities represent specifications or designs of how activites should 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Job_Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Job_Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Individual_Actor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Persona"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Logical_Business_Model">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Persona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Individual_Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Business_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Business_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Phisical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Phisical"/>
     </owl:Class>
     
 
@@ -1093,6 +1278,14 @@ Business Activities represent specifications or designs of how activites should 
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Raised_Conceptual_Business_Event_Usage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Conceptual_Business_Event_Usage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Phisical"/>
     </owl:Class>
     
 
@@ -1215,6 +1408,14 @@ Business Activities represent specifications or designs of how activites should 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Technology_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Technology_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Relation"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Time_Based_Business_Event -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Time_Based_Business_Event">
@@ -1255,6 +1456,24 @@ Business Activities represent specifications or designs of how activites should 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION"/>
+        <eamm:act_to_role_to_role rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor"/>
+        <eamm:actor_plays_role rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1451,6 +1670,37 @@ Business Activities represent specifications or designs of how activites should 
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity"/>
+        <eamm:PERFORMED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION"/>
+        <eamm:STAKEHOLDERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process"/>
+        <eamm:IMPLEMENTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Process"/>
+        <eamm:PERFORMED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION"/>
+        <eamm:PERFORMED_BY rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type"/>
+        <eamm:IMPLEMENTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product"/>
+        <eamm:STAKEHOLDERS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product">
@@ -1534,6 +1784,14 @@ Business Activities represent specifications or designs of how activites should 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION">
+        <rdfs:comment>Relationship that captures how an Actor takes on - or plays - a Business Role in order to perform a Physical Business Process</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor">
+        <rdfs:comment>A specific, named, group, team or individual that performs a role in a prcess.
+Actors are used to capture how the enterprise is actually organized, in terms of the real companies, divisions, teams and individuals that make up the organization.
+Actos take on the Roles (defined in the organization design) to execute Physical processes/activities.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Capability">
         <rdfs:comment>Provides the abstract perspective on the functional behaviour required to support the business.
 Capabilities are mapped to the Business Domain that they support.
@@ -1591,6 +1849,22 @@ Individual Business Roles are responsbilities that you would expect to be taken 
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#External_Conceptual_Business_Event">
         <rdfs:comment>Class to represent Conceptual Events that are raised by parties external to the enterprise.</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Activity">
+        <rdfs:comment>An instance of a Business Activity that is performed by a group or individual in the enterprise.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process">
+        <rdfs:comment>An instance of a Business Process that is performed by a gorup or individual in the enterprise.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type">
+        <rdfs:comment>Base class for the Physical Business Process meta classes.
+Holds basic information and the relation to Application Providers and Application Function Implementations that support this process.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product">
+        <rdfs:comment>Class to capture the products that are produced by the enterprise.
+Products are instances of Product Types.
+E.g. in the motor manufacturer example, products could be &quot;Focus&quot;, &quot;Mustang&quot; as instances of the &quot;Car&quot; type.
+Equally, a service company would capture the service offerings.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Product_Concept">
         <rdfs:comment>Class to define conceptual level representations of Products.
 Used to define fundamentally WAHT a typye of product is, e.g. a motor manufacturer, such as car, truck etc., whereas a service organization would define the classes of service that they provide.</rdfs:comment>
@@ -1634,6 +1908,15 @@ Instances of Skill_Type should be readily understood without any specialist know
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Business_Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Site"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Architecture_Principle"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Capability"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Domain"/>
@@ -1656,6 +1939,16 @@ Instances of Skill_Type should be readily understood without any specialist know
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Layer"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_Layer"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Technology_Layer"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Relationship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Relationship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#EA_Support_Relationship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Information_Relationship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Technology_Relationship"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
