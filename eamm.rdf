@@ -361,6 +361,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#APP_PRO_TO_PHYS_BUS_RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#APP_PRO_TO_PHYS_BUS_RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Relationship"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor">
@@ -1835,6 +1843,15 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#APP_PRO_TO_PHYS_BUS_RELATION -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#APP_PRO_TO_PHYS_BUS_RELATION">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#APP_PRO_TO_PHYS_BUS_RELATION"/>
+        <eamm:SUPPORTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Physical_Process_Type"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor">
@@ -1862,6 +1879,15 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Conceptual"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Driver"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Layer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Provider -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Provider">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Provider"/>
+        <eamm:SUPPORTS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#APP_PRO_TO_PHYS_BUS_RELATION"/>
     </owl:NamedIndividual>
     
 
@@ -2176,6 +2202,9 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION">
         <rdfs:comment>Relationship that captures how an Actor takes on - or plays - a Business Role in order to perform a Physical Business Process</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#APP_PRO_TO_PHYS_BUS_RELATION">
+        <rdfs:comment>Defines the relationship between a specific Application Provider OR Application Provider Role and a specific physical process</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Actor">
         <rdfs:comment>A specific, named, group, team or individual that performs a role in a prcess.
 Actors are used to capture how the enterprise is actually organized, in terms of the real companies, divisions, teams and individuals that make up the organization.
@@ -2188,6 +2217,11 @@ One of the additional purposes of this meta class is to provide a grounding for 
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Driver">
         <rdfs:comment>Class to define and manage the internal and external influences that motivate the Application Objectives.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Application_Provider">
+        <rdfs:comment>An Application Provider provides one or more Application Services.
+To provide a service, the Application Provider should provide - through its Application Function Implementations - all of the Application Functions of the Application Service that this Application Provider provides.
+e.g. a specific implementation of SAP R/3 - the ERP System, the Finance System, Cast Iron Expenses project.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm#Business_Capability">
         <rdfs:comment>Models the capabilities of a business or enterprise.
