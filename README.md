@@ -8,7 +8,7 @@ Master EAS Meta-Model from Ontology and Graph Perspective
   - [Approaching of Modeling](#approaching-of-modeling)
   - [Toolsets for Modeling](#toolsets-for-modeling)
   - [Contents for the Meta-Model](#contents-for-the-meta-model)
-  - [Recorded Video Demos](#recorded-video-demos)
+  - [Demo Courses and Recorded Video](#demo-courses-and-recorded-video)
   - [👨‍💻 Xiaoqi Zhao (Yasen) — Enterprise Architect \& Builder](#-xiaoqi-zhao-yasen--enterprise-architect--builder)
 
 ## About EAS Meta-Model
@@ -80,9 +80,11 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 - [Metamodels in ISO 42010](./ref/Hilliard-On-Metamodels-in-42010.pdf): Check here for [ISO 42010](https://www.iso.org/standard/74393.html)
 - [Enterprise Architecture Reference Frameworks](./eaframeworks/README.md)
 
-## Recorded Video Demos
+## Demo Courses and Recorded Video
 
-In YouTube Channel: https://www.youtube.com/playlist?list=PL6DEHvciXKeWsNkGovpyrPlj8AXem8wJK
+| Scope | Udemy | YouTube |
+| --- | --- | --- |
+| Part 1: Business Layer | [<img src="img/course-package/course_1-business-layer.png" alt="udemy-part1" width="400">](https://www.udemy.com/course/master-ea-meta-model-1-business-layer/?referralCode=4E8A5F0A2D4232813C7B) | [YouTube Part 1](https://www.youtube.com/playlist?list=PL6DEHvciXKeWsNkGovpyrPlj8AXem8wJK) |
 
 ---
 
