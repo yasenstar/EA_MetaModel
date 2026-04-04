@@ -1,0 +1,12 @@
+Conceptual_Technology_Model
+    Conceptual_Technology_Architecture_Type
+        Technology_Capability_Usage
+    Technology_Capability_Architecture
+Technology_Architecture_Principle
+Technology_Capability
+Technology_Domain
+Technology_Driver
+Technology_Function_Type
+Technology_Objective_Type
+    Technology_Architecture_Goal
+    Technology_Architecture_Objective
