@@ -1,0 +1,10 @@
+Business_Term
+Data_Domain
+Data_Subject
+Information_Architecture_Principle
+Information_Concept
+Information_Domain
+Information_Driver
+Information_Objective_Type
+    Information_Architecture_Goal
+    Information_Architecture_Objective
