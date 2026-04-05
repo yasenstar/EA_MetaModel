@@ -1,5 +1,4 @@
 # Load Data into Graph DB
-
 - [Load Data into Graph DB](#load-data-into-graph-db)
   - [Load from CSV - Source, Relation, Target with Label](#load-from-csv---source-relation-target-with-label)
   - [Show all Elements and Relations](#show-all-elements-and-relations)
