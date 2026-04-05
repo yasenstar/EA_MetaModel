@@ -2124,15 +2124,6 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Service -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Service">
-        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Service"/>
-        <eamm1:REALIZES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Capability"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Business_Capability -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Business_Capability">
@@ -2512,10 +2503,6 @@ One of the additional purposes of this meta class is to provide a grounding for 
         <rdfs:comment>An Application Provider provides one or more Application Services.
 To provide a service, the Application Provider should provide - through its Application Function Implementations - all of the Application Functions of the Application Service that this Application Provider provides.
 e.g. a specific implementation of SAP R/3 - the ERP System, the Finance System, Cast Iron Expenses project.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Service">
-        <rdfs:comment>A well-defined component of functional behaviour that provides a logical grouping of related Application Functions, e.g. ExchangeRates Service, CreditCardPayment Service or logical application such as CRM System, ERP System.
-The specification of the service - in terms of what it does - is defined by the set of Application Functions that it provides.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Business_Capability">
         <rdfs:comment>Models the capabilities of a business or enterprise.
