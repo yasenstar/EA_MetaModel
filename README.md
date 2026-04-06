@@ -91,9 +91,9 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 ## 👨‍💻 Xiaoqi Zhao (Yasen) — Enterprise Architect & Builder
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-USERNAME&label=Profile%20Views&color=0e76a8&style=flat" alt="Views" />
   <img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
-  <img src="https://img.shields.io/badge/Certified-SABSA-red" alt="SABSA" />
+  <img src="https://img.shields.io/badge/Certified-ArchiMate-purple" alt="ArchiMate" />
+  <img src="https://img.shields.io/badge/Certified-CBA-red" alt="CBA" />
   <img src="https://img.shields.io/badge/Business%20Architecture%20Guild-Translator-green" alt="Guild" />
 </p>
 
