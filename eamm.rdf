@@ -383,6 +383,44 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/DIRECTED-BINARY-RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/DIRECTED-BINARY-RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/RELATION"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/EA_Graph_Relation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/EA_Graph_Relation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/DIRECTED-BINARY-RELATION"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/SYSTEM-CLASS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/SCU-TO-SCU-RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/SCU-TO-SCU-RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/SYSTEM-CLASS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/SYSTEM-CLASS"/>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#ACTOR_TO_ROLE_RELATION">
@@ -1683,6 +1721,14 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Project_Management_Relationships -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Project_Management_Relationships">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/EA_Graph_Relation"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Raised_Business_Event_Usage_In_Activity -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Raised_Business_Event_Usage_In_Activity">
@@ -1719,6 +1765,22 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Raised_System_Event_Usage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#System_Event_Usage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Application_Relationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCU-TO-SIRU-RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCU-TO-SIRU-RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION"/>
     </owl:Class>
     
 
@@ -2061,6 +2123,79 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:AFA-RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:AFA-RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Application_Relationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:AFIA-RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:AFIA-RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Application_Relationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:APA-STATIC-RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:APA-STATIC-RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Application_Relationship"/>
+        <rdfs:comment>Relationships contained within a Static Application Provider Architecture</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:ASU-TO-ASU-STATIC-RELATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:ASU-TO-ASU-STATIC-RELATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Application_Relationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Application_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Application_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/EA_Graph_Relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Business_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Business_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/EA_Graph_Relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:EA_Support_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:EA_Support_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/EA_Graph_Relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Information_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Information_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/EA_Graph_Relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Technology_Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Technology_Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/EA_Graph_Relation"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2069,6 +2204,14 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/:APA-STATIC-RELATION -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/:APA-STATIC-RELATION">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:APA-STATIC-RELATION"/>
+    </owl:NamedIndividual>
     
 
 
@@ -2174,10 +2317,30 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function_Implementation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function_Implementation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function_Implementation"/>
+        <eamm1:IMPLEMENTS rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function"/>
+        <eamm1:PROVIDED_BY rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Provider"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Provider -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Provider">
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Provider"/>
+        <eamm1:DEFINES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Logical_Software_Architecture"/>
+        <eamm1:DEFINES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Provider_Architecture"/>
         <eamm1:PROVIDES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Provider_Role"/>
         <eamm1:PROVIDES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Service"/>
         <eamm1:SUPPORTS rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#APP_PRO_TO_PHYS_BUS_RELATION"/>
@@ -2411,6 +2574,15 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Logical_Software_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Logical_Software_Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Logical_Software_Architecture"/>
+        <eamm1:CONTAINS rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Physical_Activity -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Physical_Activity">
@@ -2474,6 +2646,14 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Site -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Site">
@@ -2498,6 +2678,15 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Business_Conceptual"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Business_Layer"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Skill_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Provider_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Provider_Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Provider_Architecture"/>
+        <eamm1:CONTAINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/:APA-STATIC-RELATION"/>
     </owl:NamedIndividual>
     
 
@@ -2592,6 +2781,12 @@ Enables the application modeller to specify that 2 Application Providers are eac
 e.g. applicaitonProviderX and applicationProviderY are types of SAP (Application).
 In addition, this can be used to group Application Providers under a name by which they are commonly refrerred to in the enterprise.</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function">
+        <rdfs:comment>A discrete piece of functional behaviour that an application provides. e.g. GetAllExchangeRates, MakeCredoitCardPayment</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function_Implementation">
+        <rdfs:comment>An implementation of an Application Function provided by an application - whether bespoke or packaged. e.g a doCreditCardPayment transaction in SAP Finance implements a MakeCreditCardPayment Application Function.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Provider">
         <rdfs:comment>An Application Provider provides one or more Application Services.
 To provide a service, the Application Provider should provide - through its Application Function Implementations - all of the Application Functions of the Application Service that this Application Provider provides.
@@ -2657,6 +2852,9 @@ Unlike the Geographical Region, locations have a geocode to identify that locati
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Information_Architecture_Objective">
         <rdfs:comment>A strategic goal associated with the Information Architecture of the enterprise</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Logical_Software_Architecture">
+        <rdfs:comment>A high level logical software architecture model for an Application Provider, comprised of Software Component Usages, Information Representations and their relationships.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Physical_Activity">
         <rdfs:comment>An instance of a Business Activity that is performed by a group or individual in the enterprise.</rdfs:comment>
     </rdf:Description>
@@ -2682,6 +2880,9 @@ Used to define fundamentally WAHT a typye of product is, e.g. a motor manufactur
 Product Types are realizations of Product Concepts, and group the actual, physical products by type.
 E.g. in the motor manufacturer exampe, product types would by &quot;Car&quot;, &quot;Truck&quot; as realizations of the &quot;Vehicle&quot; concept.
 As a further example, a service company would define the types of a particular service (e.g. financial services) that they provide.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION">
+        <rdfs:comment>Relationships between elements of a Software Component Architecture</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Site">
         <rdfs:comment>A specific (and named) physical location where processes or activities take place.</rdfs:comment>
@@ -2974,6 +3175,27 @@ Instances of Skill_Type should be readily understood without any specialist know
             <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Initiating_Business_Event_Usage_In_Process"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Intermediary_Business_Event_Usage_In_Process"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Raised_Business_Event_Usage_In_Process"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Project_Management_Relationships"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Application_Relationship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Business_Relationship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:EA_Support_Relationship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Information_Relationship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Technology_Relationship"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#SCA-RELATION"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:AFA-RELATION"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:AFIA-RELATION"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:APA-STATIC-RELATION"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:ASU-TO-ASU-STATIC-RELATION"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>

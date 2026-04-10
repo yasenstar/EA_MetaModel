@@ -1,4 +1,4 @@
-; Wed Apr 08 14:58:23 CST 2026
+; Fri Apr 10 21:35:41 CST 2026
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -5518,6 +5518,157 @@
 ([erl_source_url] of  %3AESSENTIAL-SLOT
 
 	(essential_id "sl590"))
+
+([Essential_6.21_Class0] of  Application_Provider
+
+	(description "Use Salesforce CRM as sample: https://www.salesforce.com/crm/what-is-crm/")
+	(distribute_costs TRUE)
+	(name "CRM_System")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class1] of  Static_Application_Provider_Architecture
+
+	(name "Static Architecture of::CRM_System")
+	(static_app_provider_architecture_elements
+		[Essential_6.21_Class2]
+		[Essential_6.21_Class4])
+	(static_architecture_of_app_provider [Essential_6.21_Class3])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(uses_provider [Essential_6.21_Class5]))
+
+([Essential_6.21_Class10] of  Software_Component_Usage
+
+	(contained_in_logical_software_arch [Essential_6.21_Class7])
+	(name "Patient_Info_Master::in::Health_ERP_System::software_architecture")
+	(software_architecture_label "Patient_Info_Master")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(usage_of_software_component [Essential_6.21_Class11]))
+
+([Essential_6.21_Class11] of  Software_Component
+
+	(name "Patient_Info_Master")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class12] of  %3ASCU-TO-SCU-RELATION
+
+	(contained_in_logical_sw_arch [Essential_6.21_Class7])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(%3AFROM [Essential_6.21_Class8])
+	(%3Arelation_label "Scheduling_Tool depends on Patient_Info_Master")
+	(%3Arelation_name "Health_ERP_System::software_architecture::Scheduling_Tool::depends on::Patient_Info_Master")
+	(%3ATO [Essential_6.21_Class10]))
+
+([Essential_6.21_Class2] of  Static_Application_Provider_Usage
+
+	(name "CRM_System::in::Static Architecture of::CRM_System")
+	(static_app_provider_arch_display_label "CRM_System")
+	(static_usage_of_app_provider [Essential_6.21_Class0])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(used_in_static_app_provider_architecture [Essential_6.21_Class1]))
+
+([Essential_6.21_Class3] of  Application_Provider
+
+	(ap_static_architecture [Essential_6.21_Class1])
+	(distribute_costs TRUE)
+	(name "ERP_System")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class4] of  Static_Application_Provider_Usage
+
+	(name "ERP_System::in::Static Architecture of::CRM_System")
+	(static_app_provider_arch_display_label "ERP_System")
+	(static_usage_of_app_provider [Essential_6.21_Class3])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(used_in_static_app_provider_architecture [Essential_6.21_Class1]))
+
+([Essential_6.21_Class5] of  %3AAPU-TO-APU-STATIC-RELATION
+
+	(contained_in_static_application_provider_architecture [Essential_6.21_Class1])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(%3AFROM [Essential_6.21_Class2])
+	(%3Arelation_label "depends on")
+	(%3Arelation_name "Static Architecture of::CRM_System: Relation from CRM_System to ERP_System")
+	(%3ATO [Essential_6.21_Class4]))
+
+([Essential_6.21_Class6] of  Application_Provider
+
+	(distribute_costs TRUE)
+	(has_software_architecture [Essential_6.21_Class7])
+	(name "Health_ERP_System")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class7] of  Logical_Software_Architecture
+
+	(logical_software_arch_elements
+		[Essential_6.21_Class8]
+		[Essential_6.21_Class10])
+	(name "Health_ERP_System::software_architecture")
+	(software_architecture_of_app_provider [Essential_6.21_Class6])
+	(sw_arch_relations [Essential_6.21_Class12])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class8] of  Software_Component_Usage
+
+	(contained_in_logical_software_arch [Essential_6.21_Class7])
+	(name "Scheduling_Tool::in::Health_ERP_System::software_architecture")
+	(software_architecture_label "Scheduling_Tool")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(usage_of_software_component [Essential_6.21_Class9]))
+
+([Essential_6.21_Class9] of  Software_Component
+
+	(name "Scheduling_Tool")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
 
 ([essential_baseline_6.5.4_Class0] of  Data_Set_API
 
