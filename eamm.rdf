@@ -2190,6 +2190,7 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Provider_Role">
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Provider_Role"/>
         <eamm1:PROVIDES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Service"/>
+        <eamm1:SUPPORTS rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#APP_PRO_TO_PHYS_BUS_RELATION"/>
     </owl:NamedIndividual>
     
 
