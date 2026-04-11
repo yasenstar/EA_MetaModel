@@ -95,12 +95,14 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 [![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
 
-<img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
-<img src="https://img.shields.io/badge/Certified-ArchiMate-purple" alt="ArchiMate" />
-<img src="https://img.shields.io/badge/Certified-CBA-red" alt="CBA" />
-<img src="https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg" alt="YouTube/>
+<p>
 
-<br>
+  <img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
+  <img src="https://img.shields.io/badge/Certified-ArchiMate-purple" alt="ArchiMate" />
+  <img src="https://img.shields.io/badge/Certified-CBA-red" alt="CBA" />
+  <img src="https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg" alt="YouTube/>
+
+</p>
 
 Stay tunes, feel free to raise your comments and suggestions! 
 Thanks for supporting me!
