@@ -91,13 +91,16 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 
 ## 👨‍💻 Xiaoqi Zhao (Yasen) — Enterprise Architect & Builder
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
-  <img src="https://img.shields.io/badge/Certified-ArchiMate-purple" alt="ArchiMate" />
-  <img src="https://img.shields.io/badge/Certified-CBA-red" alt="CBA" />
-  <img src="https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg" alt="YouTube/>
+<!-- [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao) -->
+[![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
 
-</p>
+<img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
+<img src="https://img.shields.io/badge/Certified-ArchiMate-purple" alt="ArchiMate" />
+<img src="https://img.shields.io/badge/Certified-CBA-red" alt="CBA" />
+<img src="https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg" alt="YouTube/>
+
+<br>
 
 Stay tunes, feel free to raise your comments and suggestions! 
 Thanks for supporting me!
