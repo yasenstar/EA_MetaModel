@@ -1,0 +1,2494 @@
+{
+  "style": {
+    "font-family": "Nunito Sans",
+    "background-color": "#F2F2F2",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#4C8EDA",
+    "border-width": 0,
+    "border-color": "#000000",
+    "radius": 75,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#ffffff",
+    "caption-font-size": 20,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "bare",
+    "label-color": "#ffffff",
+    "label-background-color": "#848484",
+    "label-border-color": "#848484",
+    "label-border-width": 3,
+    "label-font-size": 20,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "above",
+    "detail-orientation": "parallel",
+    "arrow-width": 3,
+    "arrow-color": "#848484",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#848484",
+    "type-background-color": "#F2F2F2",
+    "type-border-color": "#848484",
+    "type-border-width": 0,
+    "type-font-size": 21,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#848484",
+    "property-font-size": 20,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -329.559346045375,
+        "y": -322.2630181254288
+      },
+      "caption": "Business_Objective",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": -51.206575230840876,
+        "y": -228.30379899064047
+      },
+      "caption": "Business_Principle",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": -626.8317145438804,
+        "y": -61.22119868483505
+      },
+      "caption": "Business_Driver",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": -699.793904607061,
+        "y": -529.6333892815157
+      },
+      "caption": "Application_Driver",
+      "labels": [
+        "Application_Conceptual"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 256.85820703651325,
+        "y": -374.6197603246978
+      },
+      "caption": "Business_Capability",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 335.1944090127293,
+        "y": -723.873927598009
+      },
+      "caption": "Skill_Type",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": -17.35292642551429,
+        "y": -577.4017242662964
+      },
+      "caption": "Business_Domain ",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": -17.35292642551429,
+        "y": -1007.4827419379807
+      },
+      "caption": "Application_Capability",
+      "labels": [
+        "Application_Conceptual"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 632.4200561109614,
+        "y": -886.4945268270612
+      },
+      "caption": "Product_Concept",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 534.2920758597195,
+        "y": -228.30379899064047
+      },
+      "caption": "Business_Role_Type ",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 356.62881838145285,
+        "y": 255.16991997734635
+      },
+      "caption": "Conceptual_Business_Event",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 759.5885720621351,
+        "y": 318.04396228813266
+      },
+      "caption": "External_Conceptual_Business_Event",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": -51.206575230840876,
+        "y": 255.16991997734635
+      },
+      "caption": "Time_Based_Conceptual_Business_Event",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": 671.3160498102723,
+        "y": -17.56395351857472
+      },
+      "caption": "External_Business_Role_Type",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": 432.39859491368645,
+        "y": 28.181424621884673
+      },
+      "caption": "Business_Capability_Chain",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "position": {
+        "x": 77.41717441397162,
+        "y": -91.46135807148912
+      },
+      "caption": "Business_Capability_Chain_Type",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "position": {
+        "x": -263.5960453909275,
+        "y": 105.42271618009042
+      },
+      "caption": "Conceptual_Business_Model",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n17",
+      "position": {
+        "x": 1618.7479942712414,
+        "y": -561.2450741767736
+      },
+      "caption": "Value_Stream",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n18",
+      "position": {
+        "x": 730.6132751855664,
+        "y": -529.6333892815157
+      },
+      "caption": "Value_Stage",
+      "labels": [
+        "Business_Conceptual"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n19",
+      "position": {
+        "x": 1012.0519124537848,
+        "y": -131.65342875334807
+      },
+      "caption": "Business_Role",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 1266.0613820515025,
+        "y": 255.16991997734635
+      },
+      "caption": "Business_Event",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": 1063.4530746006321,
+        "y": 163.9067731806939
+      },
+      "caption": "External_Business_Event",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "position": {
+        "x": 1012.0519124537848,
+        "y": 384.29149698516284
+      },
+      "caption": "Time_Based_Business_Event",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n23",
+      "position": {
+        "x": 1618.7479942712414,
+        "y": -886.4945268270612
+      },
+      "caption": "Product_Type",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n24",
+      "position": {
+        "x": 2146.9860871442065,
+        "y": -741.0381011077527
+      },
+      "caption": "Product",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n25",
+      "position": {
+        "x": 1177.6774415016698,
+        "y": -723.873927598009
+      },
+      "caption": "Business_Process_Type",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n26",
+      "position": {
+        "x": 922.7875100054646,
+        "y": -741.0381011077527
+      },
+      "caption": "Business_Process_Family",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n27",
+      "position": {
+        "x": 1266.0613820515025,
+        "y": 84.94143952773206
+      },
+      "caption": "Site_Category",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n28",
+      "position": {
+        "x": 1427.0867532219454,
+        "y": -281.259160195429
+      },
+      "caption": "Business_Process",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n29",
+      "position": {
+        "x": 1484.2243596122066,
+        "y": -703.2311958100538
+      },
+      "caption": "Business_Activity",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n30",
+      "position": {
+        "x": 959.05885966957,
+        "y": -1052.1451839232695
+      },
+      "caption": "Business_Task",
+      "labels": [
+        "Business_Logical"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n31",
+      "position": {
+        "x": 1474.3577962874206,
+        "y": 28.181424621884673
+      },
+      "caption": "Physical_Process",
+      "labels": [
+        "Business_Phyiscal"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#4C8EDA"
+      }
+    },
+    {
+      "id": "n32",
+      "position": {
+        "x": 2146.9860871442065,
+        "y": 318.04396228813266
+      },
+      "caption": "Physical_Activity",
+      "labels": [
+        "Business_Phyiscal"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n33",
+      "position": {
+        "x": 2204.350300088496,
+        "y": -275.26137995489034
+      },
+      "caption": "Physical_Process_Type",
+      "labels": [
+        "Business_Phyiscal"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#4C8EDA"
+      }
+    },
+    {
+      "id": "n34",
+      "position": {
+        "x": 1941.168468218235,
+        "y": 28.181424621884673
+      },
+      "caption": "ACTOR_TO_ROLE_RELATION",
+      "labels": [
+        "Business_Relationship"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#fda1ff"
+      }
+    },
+    {
+      "id": "n35",
+      "position": {
+        "x": 1685.0654874782401,
+        "y": -281.25916019545156
+      },
+      "caption": "Actor",
+      "labels": [
+        "Business_Phyiscal"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n36",
+      "position": {
+        "x": 1735.3342799950644,
+        "y": 265.5036702661527
+      },
+      "caption": "Site",
+      "labels": [
+        "Business_Phyiscal"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n37",
+      "position": {
+        "x": 1391.1868787201074,
+        "y": 342.9190403275179
+      },
+      "caption": "Geographic_Location",
+      "labels": [
+        "Utilities"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#666666"
+      }
+    },
+    {
+      "id": "n38",
+      "position": {
+        "x": 1941.168468218235,
+        "y": -429.12028506595306
+      },
+      "caption": "Group_Actor ",
+      "labels": [
+        "Business_Phyiscal"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n39",
+      "position": {
+        "x": 1803.0392228160106,
+        "y": -623.1831858648361
+      },
+      "caption": "Individual_Actor",
+      "labels": [
+        "Business_Phyiscal"
+      ],
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n40",
+      "position": {
+        "x": 1213.681625423817,
+        "y": -1367.117386874299
+      },
+      "caption": "Application_Provider",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#A4dd00"
+      }
+    },
+    {
+      "id": "n41",
+      "position": {
+        "x": 1872.352342402469,
+        "y": -1127.3182571528419
+      },
+      "caption": "APP_PRO_TO_PHYS_BUS_RELATION",
+      "labels": [
+        "Application_Relationship"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#fda1ff"
+      }
+    },
+    {
+      "id": "n42",
+      "position": {
+        "x": -348.47708019421117,
+        "y": -676.3585881692838
+      },
+      "caption": "Application_Architecture_Objective",
+      "labels": [
+        "Application_Conceptual"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n43",
+      "position": {
+        "x": -599.0189479511089,
+        "y": -1199.4211160419459
+      },
+      "caption": "Information_Architecture_Objective",
+      "labels": [
+        "Information_Conceptual"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#9f0500"
+      }
+    },
+    {
+      "id": "n44",
+      "position": {
+        "x": -801.7770192577767,
+        "y": -886.4945268270612
+      },
+      "caption": "Technology_Architecture_Objective",
+      "labels": [
+        "Technology_Conceptual"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#653294"
+      }
+    },
+    {
+      "id": "n45",
+      "position": {
+        "x": -988.1504345623571,
+        "y": -687.0435794825906
+      },
+      "caption": "Information_Driver",
+      "labels": [
+        "Information_Conceptual"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#9f0500"
+      }
+    },
+    {
+      "id": "n46",
+      "position": {
+        "x": -992.4717332563015,
+        "y": -226.6484173945738
+      },
+      "caption": "Technology_Driver",
+      "labels": [
+        "Technology_Conceptual"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#653294"
+      }
+    },
+    {
+      "id": "n47",
+      "position": {
+        "x": -348.47708019421117,
+        "y": -1030.9591428642939
+      },
+      "caption": "Application_Architecture_Principle",
+      "labels": [
+        "Application_Conceptual"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n48",
+      "position": {
+        "x": 256.85820703651325,
+        "y": -1230.6883272954813
+      },
+      "caption": "Application_Service",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n49",
+      "position": {
+        "x": -185.5420249960863,
+        "y": -1242.285133631099
+      },
+      "caption": "Composite_Application_Service",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n50",
+      "position": {
+        "x": 568.4595242872748,
+        "y": -1075.606056096883
+      },
+      "caption": "APP_SVC_TO_BUS_RELATION",
+      "labels": [
+        "Application_Relationship"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#fda1ff"
+      }
+    },
+    {
+      "id": "n51",
+      "position": {
+        "x": 1177.6774415016698,
+        "y": -1033.6101804368363
+      },
+      "caption": "APP_APP_TO_BUS_RELATION",
+      "labels": [
+        "Application_Relationship"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#fda1ff"
+      }
+    },
+    {
+      "id": "n52",
+      "position": {
+        "x": 1618.7479942712414,
+        "y": -1052.1451839232695
+      },
+      "caption": "Application Family",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n53",
+      "position": {
+        "x": 1618.7479942712414,
+        "y": -1682.0895898253282
+      },
+      "caption": "Application_Provider_Type",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n54",
+      "position": {
+        "x": 1872.352342402469,
+        "y": -1569.693364182217
+      },
+      "caption": "Application_Provider_Interface",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n55",
+      "position": {
+        "x": 1898.1268610025597,
+        "y": -1342.2126644302084
+      },
+      "caption": "Composite_Application_Provider",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n56",
+      "position": {
+        "x": 808.6152565763928,
+        "y": -1216.224908914285
+      },
+      "caption": "Application_Provider_Role",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#A4dd00"
+      }
+    },
+    {
+      "id": "n57",
+      "position": {
+        "x": 707.3995261409406,
+        "y": -1450.572091647522
+      },
+      "caption": "Static_Application_Provider_Architecture",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n58",
+      "position": {
+        "x": 356.62881838145285,
+        "y": -1406.1404270576952
+      },
+      "caption": ":APA-STATIC-RELATION",
+      "labels": [
+        ":Application_Relationship"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#fda1ff"
+      }
+    },
+    {
+      "id": "n59",
+      "position": {
+        "x": 808.6152565763928,
+        "y": -1627.911060167136
+      },
+      "caption": "Logical_Software_Architecture",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n60",
+      "position": {
+        "x": 356.62881838145285,
+        "y": -1627.911060167136
+      },
+      "caption": "SCA-RELATION",
+      "labels": [
+        ":Application_Relationship"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#fda1ff"
+      }
+    },
+    {
+      "id": "n61",
+      "position": {
+        "x": 1123.5880354893816,
+        "y": -1682.0895898253282
+      },
+      "caption": "Application_Function_Implementation",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#A4dd00"
+      }
+    },
+    {
+      "id": "n62",
+      "position": {
+        "x": 1427.0867532219454,
+        "y": -1805.4300613413236
+      },
+      "caption": "Application_Function",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#A4dd00"
+      }
+    },
+    {
+      "id": "n63",
+      "position": {
+        "x": 730.6132751855664,
+        "y": -1832.6254763488007
+      },
+      "caption": "Dynamic_Application_Provider_Architecture",
+      "labels": [
+        "Application_Logical"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n64",
+      "position": {
+        "x": 356.62881838145285,
+        "y": -1849.6816932765767
+      },
+      "caption": ":AFIA-RELATION",
+      "labels": [
+        ":Application_Relationship"
+      ],
+      "properties": {},
+      "style": {
+        "node-color": "#fda1ff"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "fromId": "n1",
+      "toId": "n0",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n1",
+      "fromId": "n0",
+      "toId": "n1",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n2",
+      "fromId": "n0",
+      "toId": "n0",
+      "type": "SUPERSEDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n3",
+      "fromId": "n0",
+      "toId": "n0",
+      "type": "SUPERSEDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n4",
+      "fromId": "n2",
+      "toId": "n0",
+      "type": "MOTIVATES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "fromId": "n0",
+      "toId": "n2",
+      "type": "MOTIVATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n6",
+      "fromId": "n2",
+      "toId": "n3",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "fromId": "n4",
+      "toId": "n0",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "fromId": "n0",
+      "toId": "n4",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "fromId": "n4",
+      "toId": "n4",
+      "type": "SUPERSEDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "fromId": "n4",
+      "toId": "n4",
+      "type": "SUPERSEDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "fromId": "n4",
+      "toId": "n1",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "fromId": "n1",
+      "toId": "n4",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "fromId": "n4",
+      "toId": "n5",
+      "type": "REQUIRES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "fromId": "n5",
+      "toId": "n4",
+      "type": "REQUIRED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "fromId": "n6",
+      "toId": "n4",
+      "type": "CONTAINS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "fromId": "n4",
+      "toId": "n6",
+      "type": "BELONGS_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n17",
+      "fromId": "n6",
+      "toId": "n6",
+      "type": "SUPERSEDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n18",
+      "fromId": "n6",
+      "toId": "n6",
+      "type": "SUPERSEDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n19",
+      "fromId": "n6",
+      "toId": "n0",
+      "type": "STRATEGIC_OBJECTIVES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "fromId": "n0",
+      "toId": "n6",
+      "type": "OBJECTIVE_FOR_BUSINESS_DOMAINS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "fromId": "n7",
+      "toId": "n4",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "fromId": "n4",
+      "toId": "n7",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n23",
+      "fromId": "n8",
+      "toId": "n4",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n24",
+      "fromId": "n9",
+      "toId": "n4",
+      "type": "PROVIDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n25",
+      "fromId": "n11",
+      "toId": "n10",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n26",
+      "fromId": "n12",
+      "toId": "n10",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n27",
+      "fromId": "n13",
+      "toId": "n9",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n28",
+      "fromId": "n13",
+      "toId": "n11",
+      "type": "RAISES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n29",
+      "fromId": "n14",
+      "toId": "n16",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n30",
+      "fromId": "n15",
+      "toId": "n16",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n31",
+      "fromId": "n14",
+      "toId": "n15",
+      "type": "USES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n32",
+      "fromId": "n15",
+      "toId": "n14",
+      "type": "USED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n33",
+      "fromId": "n14",
+      "toId": "n4",
+      "type": "DEFINES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n34",
+      "fromId": "n4",
+      "toId": "n14",
+      "type": "DEFINED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n35",
+      "fromId": "n17",
+      "toId": "n18",
+      "type": "CONTRAINS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n36",
+      "fromId": "n18",
+      "toId": "n17",
+      "type": "BELONGS_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n37",
+      "fromId": "n18",
+      "toId": "n18",
+      "type": "SUPERSEDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n38",
+      "fromId": "n18",
+      "toId": "n18",
+      "type": "SUPERSEDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n39",
+      "fromId": "n18",
+      "toId": "n4",
+      "type": "REQUIRES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n40",
+      "fromId": "n4",
+      "toId": "n18",
+      "type": "REQUIRED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n41",
+      "fromId": "n19",
+      "toId": "n9",
+      "type": "REALIZES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n42",
+      "fromId": "n9",
+      "toId": "n19",
+      "type": "REALIZED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n43",
+      "fromId": "n9",
+      "toId": "n17",
+      "type": "TRIGGERS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n44",
+      "fromId": "n19",
+      "toId": "n17",
+      "type": "TRIGGERS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n45",
+      "fromId": "n17",
+      "toId": "n19",
+      "type": "TRIGGERED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n46",
+      "fromId": "n17",
+      "toId": "n9",
+      "type": "TRIGGERED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n47",
+      "fromId": "n9",
+      "toId": "n18",
+      "type": "PARTICIPATES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n48",
+      "fromId": "n19",
+      "toId": "n18",
+      "type": "PARTICIPATES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n49",
+      "fromId": "n18",
+      "toId": "n9",
+      "type": "PARTICIPATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n50",
+      "fromId": "n18",
+      "toId": "n19",
+      "type": "PARTICIPATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n51",
+      "fromId": "n22",
+      "toId": "n20",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n52",
+      "fromId": "n21",
+      "toId": "n20",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n53",
+      "fromId": "n19",
+      "toId": "n19",
+      "type": "SUPERSEDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n54",
+      "fromId": "n19",
+      "toId": "n19",
+      "type": "SUPERSEDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n55",
+      "fromId": "n19",
+      "toId": "n21",
+      "type": "RAISES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n56",
+      "fromId": "n21",
+      "toId": "n19",
+      "type": "RAISED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n57",
+      "fromId": "n11",
+      "toId": "n13",
+      "type": "RAISED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n58",
+      "fromId": "n23",
+      "toId": "n24",
+      "type": "INSTANCES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n59",
+      "fromId": "n24",
+      "toId": "n23",
+      "type": "INSTANCE_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n60",
+      "fromId": "n23",
+      "toId": "n17",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n61",
+      "fromId": "n17",
+      "toId": "n23",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n62",
+      "fromId": "n23",
+      "toId": "n8",
+      "type": "REALIZES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n63",
+      "fromId": "n8",
+      "toId": "n23",
+      "type": "REALIZED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n64",
+      "fromId": "n25",
+      "toId": "n26",
+      "type": "BELONGS_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n65",
+      "fromId": "n26",
+      "toId": "n25",
+      "type": "CONTAINS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n66",
+      "fromId": "n25",
+      "toId": "n18",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n67",
+      "fromId": "n18",
+      "toId": "n25",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n68",
+      "fromId": "n25",
+      "toId": "n23",
+      "type": "PRODUCES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n69",
+      "fromId": "n23",
+      "toId": "n25",
+      "type": "PRODUCED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n70",
+      "fromId": "n19",
+      "toId": "n25",
+      "type": "OWNS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n71",
+      "fromId": "n19",
+      "toId": "n25",
+      "type": "PERFORMS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n72",
+      "fromId": "n25",
+      "toId": "n19",
+      "type": "OWNED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n73",
+      "fromId": "n25",
+      "toId": "n19",
+      "type": "PERFORMED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n74",
+      "fromId": "n19",
+      "toId": "n27",
+      "type": "OPERATES_AT",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n75",
+      "fromId": "n28",
+      "toId": "n25",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n76",
+      "fromId": "n29",
+      "toId": "n25",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n77",
+      "fromId": "n30",
+      "toId": "n25",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n78",
+      "fromId": "n28",
+      "toId": "n4",
+      "type": "REALIZES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n79",
+      "fromId": "n4",
+      "toId": "n28",
+      "type": "REALIZED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n80",
+      "fromId": "n28",
+      "toId": "n28",
+      "type": "SUPERSEDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n81",
+      "fromId": "n28",
+      "toId": "n28",
+      "type": "SUPERSEDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n82",
+      "fromId": "n31",
+      "toId": "n28",
+      "type": "IMPLEMENTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n83",
+      "fromId": "n28",
+      "toId": "n31",
+      "type": "IMPLEMENTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n84",
+      "fromId": "n31",
+      "toId": "n33",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n85",
+      "fromId": "n32",
+      "toId": "n33",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n86",
+      "fromId": "n33",
+      "toId": "n24",
+      "type": "IMPLEMENTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n87",
+      "fromId": "n24",
+      "toId": "n33",
+      "type": "IMPLEMENTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n88",
+      "fromId": "n34",
+      "toId": "n35",
+      "type": "act_to_role_from_actor",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n89",
+      "fromId": "n35",
+      "toId": "n34",
+      "type": "actor_plays_role",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n90",
+      "fromId": "n34",
+      "toId": "n19",
+      "type": "act_to_role_to_role",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n91",
+      "fromId": "n19",
+      "toId": "n34",
+      "type": "bus_role_played_by_actor",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n92",
+      "fromId": "n34",
+      "toId": "n33",
+      "type": "STAKEHOLDER_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n93",
+      "fromId": "n33",
+      "toId": "n34",
+      "type": "STAKEHOLDERS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n94",
+      "fromId": "n35",
+      "toId": "n31",
+      "type": "PERFORMS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n95",
+      "fromId": "n31",
+      "toId": "n35",
+      "type": "PERFORMED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n96",
+      "fromId": "n34",
+      "toId": "n31",
+      "type": "PERFORMS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n97",
+      "fromId": "n31",
+      "toId": "n34",
+      "type": "PERFORMED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n98",
+      "fromId": "n32",
+      "toId": "n34",
+      "type": "PERFORMED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n99",
+      "fromId": "n34",
+      "toId": "n32",
+      "type": "PERFORMS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n100",
+      "fromId": "n34",
+      "toId": "n32",
+      "type": "STAKEHOLDER_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n101",
+      "fromId": "n32",
+      "toId": "n34",
+      "type": "STAKEHOLDERS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n102",
+      "fromId": "n27",
+      "toId": "n36",
+      "type": "INSTANCES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n103",
+      "fromId": "n36",
+      "toId": "n27",
+      "type": "INSTANCE_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n104",
+      "fromId": "n36",
+      "toId": "n36",
+      "type": "SUPERSEDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n105",
+      "fromId": "n36",
+      "toId": "n36",
+      "type": "SUPERSEDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n106",
+      "fromId": "n31",
+      "toId": "n36",
+      "type": "PERFORMED_AT",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n107",
+      "fromId": "n32",
+      "toId": "n36",
+      "type": "PERFORMED_AT",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n108",
+      "fromId": "n37",
+      "toId": "n36",
+      "type": "CONTAINS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n109",
+      "fromId": "n36",
+      "toId": "n37",
+      "type": "BELONGS_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n110",
+      "fromId": "n35",
+      "toId": "n36",
+      "type": "BASES_AT",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n111",
+      "fromId": "n34",
+      "toId": "n36",
+      "type": "STAKEHOLDER_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n112",
+      "fromId": "n36",
+      "toId": "n34",
+      "type": "STAKEHOLDERS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n113",
+      "fromId": "n38",
+      "toId": "n35",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n114",
+      "fromId": "n39",
+      "toId": "n35",
+      "type": "MEMBERS_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n115",
+      "fromId": "n40",
+      "toId": "n41",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n116",
+      "fromId": "n41",
+      "toId": "n33",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n117",
+      "fromId": "n33",
+      "toId": "n41",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n118",
+      "fromId": "n41",
+      "toId": "n40",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n119",
+      "fromId": "n42",
+      "toId": "n7",
+      "type": "FOR",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n120",
+      "fromId": "n7",
+      "toId": "n42",
+      "type": "FROM",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n121",
+      "fromId": "n42",
+      "toId": "n0",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n122",
+      "fromId": "n0",
+      "toId": "n42",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n123",
+      "fromId": "n43",
+      "toId": "n42",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n124",
+      "fromId": "n42",
+      "toId": "n43",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n125",
+      "fromId": "n42",
+      "toId": "n42",
+      "type": "SUPERSEDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n126",
+      "fromId": "n42",
+      "toId": "n42",
+      "type": "SUPERSEDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n127",
+      "fromId": "n44",
+      "toId": "n42",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n128",
+      "fromId": "n42",
+      "toId": "n44",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n129",
+      "fromId": "n43",
+      "toId": "n44",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n130",
+      "fromId": "n44",
+      "toId": "n43",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n131",
+      "fromId": "n3",
+      "toId": "n42",
+      "type": "MOTIVATES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n132",
+      "fromId": "n42",
+      "toId": "n3",
+      "type": "MOTIVATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n133",
+      "fromId": "n2",
+      "toId": "n45",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n134",
+      "fromId": "n2",
+      "toId": "n46",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n135",
+      "fromId": "n2",
+      "toId": "n2",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n136",
+      "fromId": "n3",
+      "toId": "n3",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n137",
+      "fromId": "n3",
+      "toId": "n45",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n138",
+      "fromId": "n3",
+      "toId": "n46",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n139",
+      "fromId": "n45",
+      "toId": "n45",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n140",
+      "fromId": "n45",
+      "toId": "n3",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n141",
+      "fromId": "n45",
+      "toId": "n46",
+      "type": "IMPLICATED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n142",
+      "fromId": "n47",
+      "toId": "n7",
+      "type": "RELEVANT_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n143",
+      "fromId": "n7",
+      "toId": "n47",
+      "type": "RELEVANT_FROM",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n144",
+      "fromId": "n47",
+      "toId": "n42",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n145",
+      "fromId": "n42",
+      "toId": "n47",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n146",
+      "fromId": "n48",
+      "toId": "n49",
+      "type": "COMPOSES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n147",
+      "fromId": "n49",
+      "toId": "n48",
+      "type": "COMPOSED_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n148",
+      "fromId": "n48",
+      "toId": "n7",
+      "type": "REALIZES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n149",
+      "fromId": "n7",
+      "toId": "n48",
+      "type": "REALIZED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n150",
+      "fromId": "n48",
+      "toId": "n50",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n151",
+      "fromId": "n50",
+      "toId": "n48",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n152",
+      "fromId": "n50",
+      "toId": "n25",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n153",
+      "fromId": "n25",
+      "toId": "n50",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n154",
+      "fromId": "n52",
+      "toId": "n51",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n155",
+      "fromId": "n51",
+      "toId": "n52",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n156",
+      "fromId": "n51",
+      "toId": "n25",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n157",
+      "fromId": "n25",
+      "toId": "n51",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n158",
+      "fromId": "n52",
+      "toId": "n40",
+      "type": "TYPE_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n159",
+      "fromId": "n40",
+      "toId": "n52",
+      "type": "INSTANCE_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n160",
+      "fromId": "n53",
+      "toId": "n40",
+      "type": "COMPOSES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n161",
+      "fromId": "n40",
+      "toId": "n53",
+      "type": "COMPOSED_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n162",
+      "fromId": "n40",
+      "toId": "n54",
+      "type": "COMPOSES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n163",
+      "fromId": "n54",
+      "toId": "n40",
+      "type": "COMPOSED_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n164",
+      "fromId": "n40",
+      "toId": "n55",
+      "type": "COMPOSES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n165",
+      "fromId": "n55",
+      "toId": "n40",
+      "type": "COMPOSED_OF",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n166",
+      "fromId": "n40",
+      "toId": "n48",
+      "type": "PROVIDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n167",
+      "fromId": "n48",
+      "toId": "n40",
+      "type": "PROVIDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n168",
+      "fromId": "n4",
+      "toId": "n9",
+      "type": "PROVIDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n169",
+      "fromId": "n40",
+      "toId": "n56",
+      "type": "PROVIDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n170",
+      "fromId": "n56",
+      "toId": "n40",
+      "type": "PROVIDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n171",
+      "fromId": "n56",
+      "toId": "n48",
+      "type": "PROVIDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n172",
+      "fromId": "n48",
+      "toId": "n56",
+      "type": "PROVIDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n173",
+      "fromId": "n56",
+      "toId": "n41",
+      "type": "SUPPORTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n174",
+      "fromId": "n41",
+      "toId": "n56",
+      "type": "SUPPORTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n175",
+      "fromId": "n40",
+      "toId": "n57",
+      "type": "DEFINES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n176",
+      "fromId": "n57",
+      "toId": "n40",
+      "type": "DEFINED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n177",
+      "fromId": "n57",
+      "toId": "n58",
+      "type": "CONTAINS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n178",
+      "fromId": "n58",
+      "toId": "n57",
+      "type": "BELONGS_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n179",
+      "fromId": "n40",
+      "toId": "n59",
+      "type": "DEFINES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n180",
+      "fromId": "n59",
+      "toId": "n60",
+      "type": "CONTAINS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n181",
+      "fromId": "n59",
+      "toId": "n40",
+      "type": "DEFINED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n182",
+      "fromId": "n60",
+      "toId": "n59",
+      "type": "BELONGS_TO",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n183",
+      "fromId": "n40",
+      "toId": "n61",
+      "type": "PROVIDES",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n184",
+      "fromId": "n61",
+      "toId": "n62",
+      "type": "IMPLEMENTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n185",
+      "fromId": "n61",
+      "toId": "n40",
+      "type": "PROVIDED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n186",
+      "fromId": "n62",
+      "toId": "n61",
+      "type": "IMPLEMENTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n187",
+      "fromId": "n61",
+      "toId": "n63",
+      "type": "IMPLEMENTS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n188",
+      "fromId": "n63",
+      "toId": "n61",
+      "type": "IMPLEMENTED_BY",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n189",
+      "fromId": "n63",
+      "toId": "n64",
+      "type": "CONTAINS",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n190",
+      "fromId": "n64",
+      "toId": "n63",
+      "type": "BELONGS_TO",
+      "properties": {},
+      "style": {}
+    }
+  ]
+}
