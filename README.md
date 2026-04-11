@@ -85,6 +85,7 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
 | Scope | Udemy | YouTube |
 | --- | --- | --- |
 | Part 1: Business Layer | [<img src="img/course-package/course_1-business-layer.png" alt="udemy-part1" width="400">](https://www.udemy.com/course/master-ea-meta-model-1-business-layer/?referralCode=4E8A5F0A2D4232813C7B) | [YouTube Part 1](https://www.youtube.com/playlist?list=PL6DEHvciXKeWsNkGovpyrPlj8AXem8wJK) |
+| Part 2: Application Layer | [<img src="img/course-cover-2-application-layer.png" alt="udemy-part2" width="400">](https://www.udemy.com/course/master-ea-meta-model-2-application-layer/?referralCode=9C0F56C1C935E94057B6) |  |
 
 ---
 
