@@ -95,7 +95,8 @@ It would be a long journey, I'll keep tracking any updated changes from EAS, and
   <img src="https://img.shields.io/badge/Certified-TOGAF-blue" alt="TOGAF" />
   <img src="https://img.shields.io/badge/Certified-ArchiMate-purple" alt="ArchiMate" />
   <img src="https://img.shields.io/badge/Certified-CBA-red" alt="CBA" />
-  <img src="https://img.shields.io/badge/Business%20Architecture%20Guild-Translator-green" alt="Guild" />
+  <img src="https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg" alt="YouTube/>
+
 </p>
 
 Stay tunes, feel free to raise your comments and suggestions! 
