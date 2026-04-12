@@ -1,4 +1,4 @@
-; Fri Apr 10 21:35:41 CST 2026
+; Sun Apr 12 14:46:36 CST 2026
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -5524,6 +5524,11 @@
 	(description "Use Salesforce CRM as sample: https://www.salesforce.com/crm/what-is-crm/")
 	(distribute_costs TRUE)
 	(name "CRM_System")
+	(provides_application_function_implementations
+		[Essential_6.21_Class13]
+		[Essential_6.21_Class16]
+		[Essential_6.21_Class19]
+		[Essential_6.21_Class22])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -5577,6 +5582,83 @@
 	(%3Arelation_name "Health_ERP_System::software_architecture::Scheduling_Tool::depends on::Patient_Info_Master")
 	(%3ATO [Essential_6.21_Class10]))
 
+([Essential_6.21_Class13] of  Application_Function_Implementation
+
+	(app_func_impl_name "Contact_Management")
+	(application_function_impl_architecture [Essential_6.21_Class25])
+	(application_function_implementation_provided_by [Essential_6.21_Class0])
+	(implements_application_function [Essential_6.21_Class14])
+	(name "CRM_System::Contact_Management")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class14] of  Application_Function
+
+	(name "Contact_Management")
+	(provided_by_application_service [Essential_6.21_Class15])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class15] of  Application_Service
+
+	(name "Contact_Management_Service")
+	(provides_application_functions [Essential_6.21_Class14])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class16] of  Application_Function_Implementation
+
+	(app_func_impl_name "Sales_Pipeline_Tracking")
+	(application_function_implementation_provided_by [Essential_6.21_Class0])
+	(implements_application_function [Essential_6.21_Class17])
+	(name "CRM_System::Sales_Pipeline_Tracking")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class17] of  Application_Function
+
+	(name "Sales_Pipeline_Tracking")
+	(provided_by_application_service [Essential_6.21_Class18])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class18] of  Application_Service
+
+	(name "Sales_Pipeline_Tracking_Service")
+	(provides_application_functions [Essential_6.21_Class17])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class19] of  Application_Function_Implementation
+
+	(app_func_impl_name "Marketing_Campaign")
+	(application_function_implementation_provided_by [Essential_6.21_Class0])
+	(implements_application_function [Essential_6.21_Class20])
+	(name "CRM_System::Marketing_Campaign")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
 ([Essential_6.21_Class2] of  Static_Application_Provider_Usage
 
 	(name "CRM_System::in::Static Architecture of::CRM_System")
@@ -5589,11 +5671,248 @@
 	(system_is_published TRUE)
 	(used_in_static_app_provider_architecture [Essential_6.21_Class1]))
 
+([Essential_6.21_Class20] of  Application_Function
+
+	(name "Marketing_Campaign")
+	(provided_by_application_service [Essential_6.21_Class21])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class21] of  Application_Service
+
+	(name "Marketing_Campaign_Service")
+	(provides_application_functions [Essential_6.21_Class20])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class22] of  Application_Function_Implementation
+
+	(app_func_impl_name "Reporting_and_Analytics")
+	(application_function_implementation_provided_by [Essential_6.21_Class0])
+	(implements_application_function [Essential_6.21_Class23])
+	(name "CRM_System::Reporting_and_Analytics")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class23] of  Application_Function
+
+	(name "Reporting_and_Analytics")
+	(provided_by_application_service [Essential_6.21_Class24])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class24] of  Application_Service
+
+	(name "Reporting_and_Analytics_Service")
+	(provides_application_functions [Essential_6.21_Class23])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class25] of  Dynamic_Application_Provider_Architecture
+
+	(app_funcImp_architecture_components
+		[Essential_6.21_Class26]
+		[Essential_6.21_Class27]
+		[Essential_6.21_Class28]
+		[Essential_6.21_Class29]
+		[Essential_6.21_Class31])
+	(app_funcImpl_architecture_relations
+		[Essential_6.21_Class30]
+		[Essential_6.21_Class32]
+		[Essential_6.21_Class33]
+		[Essential_6.21_Class34])
+	(dynamic_architecture_of_application_function_impl [Essential_6.21_Class13])
+	(name "Dynamic Model of CRM_System::Contact_Management")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class26] of  Dynamic_Application_Function_Implementation_Usage
+
+	(application_function_arch_display_label "Contact_Management")
+	(name "CRM_System::Contact_Management in Dynamic Model of CRM_System::Contact_Management")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(usage_of_application_function_implementation [Essential_6.21_Class13])
+	(used_in_dynamic_app_provider_architecture [Essential_6.21_Class25]))
+
+([Essential_6.21_Class27] of  Dynamic_Application_Function_Implementation_Usage
+
+	(application_function_arch_display_label "Marketing_Campaign")
+	(name "CRM_System::Marketing_Campaign in Dynamic Model of CRM_System::Contact_Management")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(usage_of_application_function_implementation [Essential_6.21_Class19])
+	(used_in_dynamic_app_provider_architecture [Essential_6.21_Class25]))
+
+([Essential_6.21_Class28] of  Dynamic_Application_Function_Implementation_Usage
+
+	(application_function_arch_display_label "Sales_Pipeline_Tracking")
+	(name "CRM_System::Sales_Pipeline_Tracking in Dynamic Model of CRM_System::Contact_Management")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(usage_of_application_function_implementation [Essential_6.21_Class16])
+	(used_in_dynamic_app_provider_architecture [Essential_6.21_Class25]))
+
+([Essential_6.21_Class29] of  Dynamic_Application_Function_Implementation_Usage
+
+	(application_function_arch_display_label "Reporting_and_Analytics")
+	(name "CRM_System::Reporting_and_Analytics in Dynamic Model of CRM_System::Contact_Management")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(usage_of_application_function_implementation [Essential_6.21_Class22])
+	(used_in_dynamic_app_provider_architecture [Essential_6.21_Class25]))
+
 ([Essential_6.21_Class3] of  Application_Provider
 
 	(ap_static_architecture [Essential_6.21_Class1])
 	(distribute_costs TRUE)
-	(name "ERP_System")
+	(name "SAP_ERP_System")
+	(provides_application_services
+		[Essential_6.21_Class36]
+		[Essential_6.21_Class38]
+		[Essential_6.21_Class40]
+		[Essential_6.21_Class42])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class30] of  %3ADAPFIU-PROVIDED-BY-RELATION
+
+	(contained_in_dynamic_application_architecture [Essential_6.21_Class25])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(%3AFROM [Essential_6.21_Class29])
+	(%3Arelation_label "invokes")
+	(%3Arelation_name "Reporting_and_Analytics provided by <provider_used>")
+	(%3ATO [Essential_6.21_Class31]))
+
+([Essential_6.21_Class31] of  Dynamic_Application_Provider_Usage
+
+	(application_function_arch_display_label "CRM_System")
+	(name "CRM_System in Dynamic Model of CRM_System::Contact_Management")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(usage_of_application_provider [Essential_6.21_Class0])
+	(used_in_dynamic_app_provider_architecture [Essential_6.21_Class25]))
+
+([Essential_6.21_Class32] of  %3ADAPFIU-PROVIDED-BY-RELATION
+
+	(contained_in_dynamic_application_architecture [Essential_6.21_Class25])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(%3AFROM [Essential_6.21_Class26])
+	(%3Arelation_label "provided by")
+	(%3Arelation_name "Contact_Management provided by <provider_used>")
+	(%3ATO [Essential_6.21_Class31]))
+
+([Essential_6.21_Class33] of  %3ADAPFIU-PROVIDED-BY-RELATION
+
+	(contained_in_dynamic_application_architecture [Essential_6.21_Class25])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(%3AFROM [Essential_6.21_Class27])
+	(%3Arelation_label "provided by")
+	(%3ATO [Essential_6.21_Class31]))
+
+([Essential_6.21_Class34] of  %3ADAPFIU-PROVIDED-BY-RELATION
+
+	(contained_in_dynamic_application_architecture [Essential_6.21_Class25])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(%3AFROM [Essential_6.21_Class28])
+	(%3Arelation_label "provided by")
+	(%3ATO [Essential_6.21_Class31]))
+
+([Essential_6.21_Class36] of  Application_Provider_Role
+
+	(implementing_application_service [Essential_6.21_Class37])
+	(name "SAP_ERP_System as FI")
+	(role_for_application_provider [Essential_6.21_Class3])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class37] of  Application_Service
+
+	(app_service_static_model_architecture [Essential_6.21_Class51])
+	(application_service_status Online)
+	(description "Enablement for Financial Shared Services")
+	(name "FI")
+	(provided_by_application_provider_roles [Essential_6.21_Class36])
+	(provides_application_functions
+		[Essential_6.21_Class45]
+		[Essential_6.21_Class46]
+		[Essential_6.21_Class47]
+		[Essential_6.21_Class48]
+		[Essential_6.21_Class49]
+		[Essential_6.21_Class50])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class38] of  Application_Provider_Role
+
+	(implementing_application_service [Essential_6.21_Class39])
+	(name "SAP_ERP_System as FSCM")
+	(role_for_application_provider [Essential_6.21_Class3])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class39] of  Application_Service
+
+	(description "Enablement for Financial Shared Services")
+	(name "FSCM")
+	(provided_by_application_provider_roles [Essential_6.21_Class38])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -5612,6 +5931,118 @@
 	(system_is_published TRUE)
 	(used_in_static_app_provider_architecture [Essential_6.21_Class1]))
 
+([Essential_6.21_Class40] of  Application_Provider_Role
+
+	(implementing_application_service [Essential_6.21_Class41])
+	(name "SAP_ERP_System as Travel_Management")
+	(role_for_application_provider [Essential_6.21_Class3])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class41] of  Application_Service
+
+	(description "Enablement for Shared Services")
+	(name "Travel_Management")
+	(provided_by_application_provider_roles [Essential_6.21_Class40])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class42] of  Application_Provider_Role
+
+	(implementing_application_service [Essential_6.21_Class43])
+	(name "SAP_ERP_System as Internal_Self-Services")
+	(role_for_application_provider [Essential_6.21_Class3])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class43] of  Application_Service
+
+	(description "Enablement for Financial Shared Services")
+	(name "Internal_Self-Services")
+	(provided_by_application_provider_roles [Essential_6.21_Class42])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class44] of  Composite_Application_Service
+
+	(composed_of_application_services
+		[Essential_6.21_Class37]
+		[Essential_6.21_Class39]
+		[Essential_6.21_Class43]
+		[Essential_6.21_Class41])
+	(name "SAP_Shared_Services_Framework")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class45] of  Application_Function
+
+	(description "Create from an ERP system")
+	(name "Manual_Creating_of_Service_Requests")
+	(provided_by_application_service [Essential_6.21_Class37])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class46] of  Application_Function
+
+	(description "from an ERP system")
+	(name "Search_for_Service_Requests")
+	(provided_by_application_service [Essential_6.21_Class37])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class47] of  Application_Function
+
+	(description "from the Interaction Center")
+	(name "Start_ERP_Transactions")
+	(provided_by_application_service [Essential_6.21_Class37])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class48] of  Application_Function
+
+	(name "Link_ERP_Objects_with_ServiceRequests")
+	(provided_by_application_service [Essential_6.21_Class37])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class49] of  Application_Function
+
+	(description "with the Accounting Interaction Center")
+	(name "Integration_of_SAP_Collection_Management")
+	(provided_by_application_service [Essential_6.21_Class37])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
 ([Essential_6.21_Class5] of  %3AAPU-TO-APU-STATIC-RELATION
 
 	(contained_in_static_application_provider_architecture [Essential_6.21_Class1])
@@ -5623,6 +6054,67 @@
 	(%3Arelation_label "depends on")
 	(%3Arelation_name "Static Architecture of::CRM_System: Relation from CRM_System to ERP_System")
 	(%3ATO [Essential_6.21_Class4]))
+
+([Essential_6.21_Class50] of  Application_Function
+
+	(description "with the Accounting Interaction Center")
+	(name "Integration_of_SAP_Dispute_Management")
+	(provided_by_application_service [Essential_6.21_Class37])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class51] of  Static_Application_Service_Architecture
+
+	(application_service_usage_dependencies [Essential_6.21_Class54])
+	(contained_app_service_usages
+		[Essential_6.21_Class52]
+		[Essential_6.21_Class53])
+	(name "Static Architecture of::FI")
+	(static_architecture_of_app_svc [Essential_6.21_Class37])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class52] of  Application_Service_Usage
+
+	(application_function_arch_display_label "FI")
+	(inverse_of_contained_app_service_usages [Essential_6.21_Class51])
+	(name "FI::in::Static Architecture of::FI")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(usage_of_application_service [Essential_6.21_Class37]))
+
+([Essential_6.21_Class53] of  Application_Service_Usage
+
+	(application_function_arch_display_label "FSCM")
+	(inverse_of_contained_app_service_usages [Essential_6.21_Class51])
+	(name "FSCM::in::Static Architecture of::FI")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(usage_of_application_service [Essential_6.21_Class39]))
+
+([Essential_6.21_Class54] of  %3AASU-TO-ASU-STATIC-RELATION
+
+	(inverse_of_application_service_usage_dependencies [Essential_6.21_Class51])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(%3AFROM [Essential_6.21_Class52])
+	(%3Arelation_label "depends on")
+	(%3Arelation_name "Static Architecture of::FI::FI_TO_FSCM")
+	(%3ATO [Essential_6.21_Class53]))
 
 ([Essential_6.21_Class6] of  Application_Provider
 

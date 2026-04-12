@@ -2144,6 +2144,8 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:ASU-TO-ASU-STATIC-RELATION">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:Application_Relationship"/>
+        <rdfs:comment>Relation between Application Service Usages.
+Models the dependencies between Application Services in a static model.</rdfs:comment>
     </owl:Class>
     
 
@@ -2211,6 +2213,14 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/:APA-STATIC-RELATION">
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:APA-STATIC-RELATION"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/:ASU-TO-ASU-STATIC-RELATION -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/:ASU-TO-ASU-STATIC-RELATION">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#:ASU-TO-ASU-STATIC-RELATION"/>
     </owl:NamedIndividual>
     
 
@@ -2363,6 +2373,7 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Service">
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Service"/>
+        <eamm1:DEFINES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Service_Architecture"/>
         <eamm1:PROVIDES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Function"/>
         <eamm1:REALIZES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Capability"/>
         <eamm1:SUPPORTS rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#APP_SVC_TO_BUS_RELATION"/>
@@ -2702,6 +2713,15 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Service_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Service_Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Service_Architecture"/>
+        <eamm1:CONTAINS rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/2/eamm/:ASU-TO-ASU-STATIC-RELATION"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Architecture_Objective -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Architecture_Objective">
@@ -2911,6 +2931,9 @@ Instances of Skill_Type should be readily understood without any specialist know
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Provider_Architecture">
         <rdfs:comment>The architecture describing the sub components of an Application Providers - a STATIC view.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Static_Application_Service_Architecture">
+        <rdfs:comment>The architecture describing the sub components of an Application Service - a STATIC view and static dependencies between them.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Architecture_Objective">
         <rdfs:comment>A strategic goal associated with the Technology Architecture of the enterprise</rdfs:comment>
