@@ -1,4 +1,4 @@
-; Sun Apr 12 14:46:36 CST 2026
+; Sun Apr 12 22:31:13 CST 2026
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -5521,6 +5521,7 @@
 
 ([Essential_6.21_Class0] of  Application_Provider
 
+	(app_pro_supports_phys_proc [Essential_6.21_Class62])
 	(description "Use Salesforce CRM as sample: https://www.salesforce.com/crm/what-is-crm/")
 	(distribute_costs TRUE)
 	(name "CRM_System")
@@ -5529,6 +5530,12 @@
 		[Essential_6.21_Class16]
 		[Essential_6.21_Class19]
 		[Essential_6.21_Class22])
+	(provides_application_services [Essential_6.21_Class61])
+	(required_technology_capabilities
+		[essential_prj_AA_v1.4_Instance_59]
+		[essential_prj_DD_v1.1_Instance_4]
+		[essential_prj_AA_v1.4_Instance_20013]
+		[essential_prj_CC_v1.4.2_Instance_130025])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -5608,7 +5615,9 @@
 ([Essential_6.21_Class15] of  Application_Service
 
 	(name "Contact_Management_Service")
+	(provided_by_application_provider_roles [Essential_6.21_Class61])
 	(provides_application_functions [Essential_6.21_Class14])
+	(realises_application_capabilities [Essential_6.21_Class55])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -5641,6 +5650,7 @@
 
 	(name "Sales_Pipeline_Tracking_Service")
 	(provides_application_functions [Essential_6.21_Class17])
+	(realises_application_capabilities [Essential_6.21_Class56])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -5802,6 +5812,12 @@
 		[Essential_6.21_Class38]
 		[Essential_6.21_Class40]
 		[Essential_6.21_Class42])
+	(required_technology_capabilities
+		[essential_prj_DD_v1.1_Instance_1]
+		[essential_prj_CC_v1.4.2_Instance_130030]
+		[essential_prj_AA_v1.4_Instance_56]
+		[essential_prj_CC_v1.4.2_Instance_140264]
+		[essential_prj_AA_v1.4_Instance_20011])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -6116,11 +6132,120 @@
 	(%3Arelation_name "Static Architecture of::FI::FI_TO_FSCM")
 	(%3ATO [Essential_6.21_Class53]))
 
+([Essential_6.21_Class55] of  Application_Capability
+
+	(app_cap_supports_bus_cap [Essential_6.21_Class58])
+	(description "Organize and manage customer information, including demographics, social media connections, and interactions.")
+	(name "Contact_Management")
+	(realised_by_application_services [Essential_6.21_Class15])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class56] of  Application_Capability
+
+	(app_cap_supports_bus_cap [Essential_6.21_Class58])
+	(description "Track stages, owners, and projected close dates for deals, helping sales teams manage their pipeline effectively.")
+	(name "Pipeline_&_Opportunity_Management")
+	(realised_by_application_services [Essential_6.21_Class18])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class57] of  Application_Capability
+
+	(app_cap_supports_bus_cap [Essential_6.21_Class58])
+	(description "Automate repetitive tasks and set up custom rules to streamline processes.")
+	(name "Workflow_Automation")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class58] of  Business_Capability
+
+	(bus_cap_supporting_app_caps
+		[Essential_6.21_Class55]
+		[Essential_6.21_Class56]
+		[Essential_6.21_Class57])
+	(is_root FALSE)
+	(name "Customer_Management")
+	(realised_by_business_processes [Essential_6.21_Class60])
+	(supports_business_capabilities [Essential_6.21_Class59])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class59] of  Business_Capability
+
+	(contained_business_capabilities [Essential_6.21_Class58])
+	(is_root FALSE)
+	(name "MyCompany_Capability")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
 ([Essential_6.21_Class6] of  Application_Provider
 
 	(distribute_costs TRUE)
 	(has_software_architecture [Essential_6.21_Class7])
 	(name "Health_ERP_System")
+	(required_technology_capabilities
+		[essential_prj_CC_v1.4.2_Instance_140264]
+		[EAS_Meta_Model_Instance_24]
+		[essential_prj_CC_v1.4.2_Instance_130025])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class60] of  Business_Process
+
+	(implemented_by_physical_business_processes [Essential_6.21_Class63])
+	(name "Customer_Management_Process")
+	(realises_business_capability [Essential_6.21_Class58])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class61] of  Application_Provider_Role
+
+	(implementing_application_service [Essential_6.21_Class15])
+	(name "CRM_System as Contact_Management_Service")
+	(role_for_application_provider [Essential_6.21_Class0])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class62] of  APP_PRO_TO_PHYS_BUS_RELATION
+
+	(apppro_to_physbus_from_apppro [Essential_6.21_Class0])
+	(apppro_to_physbus_to_busproc [Essential_6.21_Class63])
+	(relation_name "CRM_System::supports::performing Customer_Management_Process")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class63] of  Physical_Process
+
+	(implements_business_process [Essential_6.21_Class60])
+	(name "performing Customer_Management_Process")
+	(phys_bp_supported_by_app_pro [Essential_6.21_Class62])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -13719,6 +13844,7 @@
 ([essential_baseline_v3.0.4_Class147] of  Report_Constant
 
 	(name "Root Business Capability")
+	(report_constant_ea_elements [Essential_6.21_Class59])
 	(report_constant_short_name "Root Business Capability")
 	(system_is_published TRUE)
 	(system_last_modified_author_id "neil.walsh@e-asolutions.com")
