@@ -1,4 +1,4 @@
-; Sun Apr 12 22:31:13 CST 2026
+; Sun Apr 19 20:38:14 CST 2026
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -5144,6 +5144,7 @@
 	(description "Asynchronous Javascript And XML. A set of technologies providing a software framework for delivering user interface solutions")
 	(name "AJAX Framework")
 	(realisation_of_technology_capability [EAS_Meta_Model_Instance_10013])
+	(realised_by_technology_products [Essential_6.21_Class10008])
 	(system_is_published TRUE)
 	(system_last_modified_author_id "neil.walsh@e-asolutions.com")
 	(system_last_modified_datetime_iso8601 "2022-02-11T12:26:35.375Z"))
@@ -5172,6 +5173,7 @@
 	(realisation_of_technology_capability
 		[EAS_Meta_Model_Instance_10013]
 		[EAS_Meta_Model_v1.0_Instance_10038])
+	(realised_by_technology_products [Essential_6.21_Class10006])
 	(system_is_published TRUE)
 	(system_last_modified_author_id "neil.walsh@e-asolutions.com")
 	(system_last_modified_datetime_iso8601 "2022-02-11T12:26:35.436Z"))
@@ -5522,6 +5524,9 @@
 ([Essential_6.21_Class0] of  Application_Provider
 
 	(app_pro_supports_phys_proc [Essential_6.21_Class62])
+	(deployments_of_application_provider
+		[Essential_6.21_Class10000]
+		[Essential_6.21_Class10002])
 	(description "Use Salesforce CRM as sample: https://www.salesforce.com/crm/what-is-crm/")
 	(distribute_costs TRUE)
 	(name "CRM_System")
@@ -5568,8 +5573,116 @@
 	(system_is_published TRUE)
 	(usage_of_software_component [Essential_6.21_Class11]))
 
+([Essential_6.21_Class10000] of  Application_Deployment
+
+	(application_deployment_label "CRM Deploy")
+	(application_deployment_role [essential_prj_EE_v0.1_Instance_20011])
+	(application_provider_deployed [Essential_6.21_Class0])
+	(belongs_to_deployment_group [Essential_6.21_Class10001])
+	(name "CRM Deploy - 1. Production")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class10001] of  Application_Deployment_Group
+
+	(name "Production Deployment Group")
+	(number_of_deployed_instances_application 1)
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class10002] of  Application_Deployment
+
+	(application_deployment_label "CRM QA")
+	(application_deployment_role [essential_prj_CC_v1.4.2_Instance_490006])
+	(application_provider_deployed [Essential_6.21_Class0])
+	(belongs_to_deployment_group [Essential_6.21_Class10003])
+	(name "CRM QA - 7. QA")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class10003] of  Application_Deployment_Group
+
+	(name "QA Deployment Group")
+	(number_of_deployed_instances_application 1)
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class10004] of  Application_Deployment
+
+	(application_deployment_label "SAP QA")
+	(application_deployment_role [essential_prj_CC_v1.4.2_Instance_490006])
+	(application_provider_deployed [Essential_6.21_Class3])
+	(belongs_to_deployment_group [Essential_6.21_Class10003])
+	(name "SAP QA - 7. QA")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class10005] of  Application_Function_Implementation
+
+	(app_func_impl_name "Patient_Info_Management")
+	(application_function_implementation_provided_by [Essential_6.21_Class6])
+	(implements_application_function [Essential_6.21_Class14])
+	(inverse_of_delivers_app_func_impl [Essential_6.21_Class11])
+	(name "Health_ERP_System::Patient_Info_Management")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class10006] of  Technology_Product_Role
+
+	(implementing_technology_component [EAS_Meta_Model_v1.0_Instance_10063])
+	(name "Azure_Function::as::HTML")
+	(role_for_technology_provider [Essential_6.21_Class10007])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class10007] of  Technology_Product
+
+	(implements_technology_components
+		[Essential_6.21_Class10006]
+		[Essential_6.21_Class10008])
+	(name "Azure_Function")
+	(supplier_technology_product [essential_prj_AA_v1.4_Instance_98])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class10008] of  Technology_Product_Role
+
+	(implementing_technology_component [EAS_Meta_Model_v1.0_Instance_10041])
+	(name "Azure_Function::as::AJAX Framework")
+	(role_for_technology_provider [Essential_6.21_Class10007])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
 ([Essential_6.21_Class11] of  Software_Component
 
+	(delivers_app_func_impl [Essential_6.21_Class10005])
 	(name "Patient_Info_Master")
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
@@ -5805,6 +5918,7 @@
 ([Essential_6.21_Class3] of  Application_Provider
 
 	(ap_static_architecture [Essential_6.21_Class1])
+	(deployments_of_application_provider [Essential_6.21_Class10004])
 	(distribute_costs TRUE)
 	(name "SAP_ERP_System")
 	(provides_application_services
@@ -6199,6 +6313,7 @@
 	(distribute_costs TRUE)
 	(has_software_architecture [Essential_6.21_Class7])
 	(name "Health_ERP_System")
+	(provides_application_function_implementations [Essential_6.21_Class10005])
 	(required_technology_capabilities
 		[essential_prj_CC_v1.4.2_Instance_140264]
 		[EAS_Meta_Model_Instance_24]
@@ -6281,6 +6396,8 @@
 ([Essential_6.21_Class9] of  Software_Component
 
 	(name "Scheduling_Tool")
+	(software_from_tech_prod_role [Essential_6.21_Class10008])
+	(software_runtime_technology [Essential_6.21_Class10006])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -35575,6 +35692,7 @@
 
 	(description "Microsoft Corporation.")
 	(name "Microsoft")
+	(supplier_owned_technology_providers [Essential_6.21_Class10007])
 	(supplier_url "http://www.microsoft.com")
 	(system_is_published TRUE)
 	(system_last_modified_author_id "neil.walsh@e-asolutions.com")
