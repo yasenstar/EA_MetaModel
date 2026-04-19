@@ -32,7 +32,7 @@ Logical_Software_Architecture
 Logical_Software_Architecture_Type
     Software_Component_Usage
     Software_Information_Representation_Usage
-Software_Component_Usage
+Software_Component
 System_Event
     External_System_Event
     Time_Based_System_Event
