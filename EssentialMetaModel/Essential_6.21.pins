@@ -1,4 +1,4 @@
-; Sun Apr 19 20:38:14 CST 2026
+; Tue Apr 21 13:57:05 CST 2026
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -5566,6 +5566,7 @@
 	(contained_in_logical_software_arch [Essential_6.21_Class7])
 	(name "Patient_Info_Master::in::Health_ERP_System::software_architecture")
 	(software_architecture_label "Patient_Info_Master")
+	(software_physical_deployments [Essential_6.21_Class20000])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -5577,6 +5578,7 @@
 
 	(application_deployment_label "CRM Deploy")
 	(application_deployment_role [essential_prj_EE_v0.1_Instance_20011])
+	(application_deployment_technical_arch [Essential_6.21_Class10007])
 	(application_provider_deployed [Essential_6.21_Class0])
 	(belongs_to_deployment_group [Essential_6.21_Class10001])
 	(name "CRM Deploy - 1. Production")
@@ -5600,6 +5602,7 @@
 
 	(application_deployment_label "CRM QA")
 	(application_deployment_role [essential_prj_CC_v1.4.2_Instance_490006])
+	(application_deployment_technical_arch [Essential_6.21_Class10007])
 	(application_provider_deployed [Essential_6.21_Class0])
 	(belongs_to_deployment_group [Essential_6.21_Class10003])
 	(name "CRM QA - 7. QA")
@@ -5798,6 +5801,21 @@
 
 	(name "Marketing_Campaign")
 	(provided_by_application_service [Essential_6.21_Class21])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class20000] of  Application_Deployment
+
+	(application_deployment_label "Health ERP")
+	(application_deployment_role [essential_prj_CC_v1.4.2_Instance_490006])
+	(application_provider_deployed [Essential_6.21_Class6])
+	(deployment_of_software_components
+		[Essential_6.21_Class10]
+		[Essential_6.21_Class8])
+	(name "Health ERP - 7. QA")
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
@@ -6310,6 +6328,7 @@
 
 ([Essential_6.21_Class6] of  Application_Provider
 
+	(deployments_of_application_provider [Essential_6.21_Class20000])
 	(distribute_costs TRUE)
 	(has_software_architecture [Essential_6.21_Class7])
 	(name "Health_ERP_System")
@@ -6386,6 +6405,7 @@
 	(contained_in_logical_software_arch [Essential_6.21_Class7])
 	(name "Scheduling_Tool::in::Health_ERP_System::software_architecture")
 	(software_architecture_label "Scheduling_Tool")
+	(software_physical_deployments [Essential_6.21_Class20000])
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
