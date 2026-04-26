@@ -2340,7 +2340,6 @@ Regions can be classified by the Region Type taxonomy, enabling any real-world a
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Provider_Role">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Logical"/>
-        <rdfs:comment>Represents the definition of a Technology Provider&apos;s ability to fulfill a given role as a Technology Provider</rdfs:comment>
     </owl:Class>
     
 
@@ -2641,6 +2640,7 @@ Models the dependencies between Application Services in a static model.</rdfs:co
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Deployment">
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Deployment"/>
+        <eamm1:CONTAINS rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Software_Component_Usage"/>
         <eamm1:DEPLOYS rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Application_Provider"/>
     </owl:NamedIndividual>
     
@@ -3172,6 +3172,15 @@ Models the dependencies between Application Services in a static model.</rdfs:co
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Provider_Role -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Provider_Role">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Provider_Role"/>
+        <eamm1:REALIZES rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Component"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Time_Based_Conceptual_Business_Event -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Time_Based_Conceptual_Business_Event">
@@ -3397,6 +3406,11 @@ Instances of Skill_Type should be readily understood without any specialist know
 The contained technologies slot is used as part of a DEFINITION of a Capability to describe Capabilities that are considered to be part of (contained in - as opposed to used to deliver) a larger Capability.
 To DESIGN how a new Capability could be delivered by using existing Capabilities, a Technology Capability Architecture is used to describe the new Capability.</rdfs:comment>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Component">
+        <rdfs:comment>Class to capture logical types - or classes - of Technology that are used to provide Technology Capability.
+e.g. Application Server, Message Oriented Middleware, Operation System.
+These should be real types of technology that are available today (or are state of the art) but not actual products.</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Product_Role">
         <rdfs:comment>Represents the definition of a specific Technology Product&apos;s ability to fulfill a given role as a Technology Component.
 The lifecycle status is used to define the current strategic policy on the use of this Product as the Component.</rdfs:comment>
@@ -3404,6 +3418,9 @@ The lifecycle status is used to define the current strategic policy on the use o
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Provider">
         <rdfs:comment>Base class of actual technology products and builds of products that are used to deliver technology infrastructure for IT systems.
 Technology Providers are used to provide Technology Components (which are higher level logical constructs) in the architecture.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Technology_Provider_Role">
+        <rdfs:comment>Represents the definition of a Technology Provider&apos;s ability to fulfill a given role as a Technology Provider</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/2/eamm#Time_Based_Conceptual_Business_Event">
         <rdfs:comment>Class to represent Conceptual Events that are raised by schedules or are timed events.</rdfs:comment>
