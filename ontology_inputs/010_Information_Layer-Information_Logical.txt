@@ -1,0 +1,17 @@
+Data_Object_Type
+    Data_Object
+    Data_Object_Attribute
+Data_Representation_Type
+    Data_Representation
+    Data_Representation_Attribute
+Information_Representation_Type
+    Information_Representation
+    Information_Representation_Attribute
+Information_View_Type
+    Information_View
+    Information_View_Attribute
+Logical_Information_Model
+    Logical_Information_Model_Types
+        Information_Representation_Usage
+        Information_View_Usage
+Primitive_Data_Object
