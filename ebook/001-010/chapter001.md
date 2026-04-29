@@ -1,7 +1,7 @@
 # Chapter 001: Foundations and Repository Overview
 
 - [Chapter 001: Foundations and Repository Overview](#chapter-001-foundations-and-repository-overview)
-  - [Purpose of This Book](#purpose-of-this-book)
+  - [1.1 Purpose of This Book](#11-purpose-of-this-book)
   - [1.2 Understanding the EA Meta Model](#12-understanding-the-ea-meta-model)
   - [1.3 From Theory to Implementation](#13-from-theory-to-implementation)
   - [1.4 Repository Structure](#14-repository-structure)
@@ -11,7 +11,7 @@
   - [1.8 Looking Ahead](#18-looking-ahead)
   - [1.9 Summary](#19-summary)
 
-## Purpose of This Book
+## 1.1 Purpose of This Book
 
 Enterprise Architecture (EA) has long been positioned as a discipline that enables alignment between business and technology. However, in practice, many EA initiatives struggle to move beyond conceptual frameworks and static documentation. The result is often an architecture that is theoretically sound but operationally disconnected.
 
