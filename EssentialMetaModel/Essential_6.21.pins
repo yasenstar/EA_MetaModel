@@ -1,4 +1,4 @@
-; Wed Apr 22 16:05:17 CST 2026
+; Sun Apr 26 22:40:06 CST 2026
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -5967,6 +5967,25 @@
 	(%3Arelation_label "invokes")
 	(%3Arelation_name "Reporting_and_Analytics provided by <provider_used>")
 	(%3ATO [Essential_6.21_Class31]))
+
+([Essential_6.21_Class30000] of  Time_Based_System_Event
+
+	(name "Begin_of_Day_End")
+	(related_information_representation [Essential_6.21_Class30001])
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class30001] of  Information_Representation
+
+	(name "Customer_Payment")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
 
 ([Essential_6.21_Class31] of  Dynamic_Application_Provider_Usage
 
