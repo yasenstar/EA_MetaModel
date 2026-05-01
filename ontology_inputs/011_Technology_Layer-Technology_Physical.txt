@@ -1,0 +1,11 @@
+Physical_Technology_Model
+    Technology_Deployment_Architecture
+    Technology_Deployment_Architecture_Type
+        Technology_Deployment_Usage
+Technology_Deployment_Group
+Technology_Instance
+    Application_Software_Instance
+    Hardware_Instance
+    Information_Store_Instance
+    Infrastructure_Software_Instance
+Technology_Node
