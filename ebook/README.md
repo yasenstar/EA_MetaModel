@@ -1,6 +1,6 @@
-# Enterprise Architecture Meta-Model - Practical Guide
+# Enterprise Architecture Meta-Model - A Practical Implementation Guide
 
-- [Enterprise Architecture Meta-Model - Practical Guide](#enterprise-architecture-meta-model---practical-guide)
+- [Enterprise Architecture Meta-Model - A Practical Implementation Guide](#enterprise-architecture-meta-model---a-practical-implementation-guide)
   - [📘 Preface](#-preface)
   - [🎯 Positioning and Scope](#-positioning-and-scope)
   - [🧭 How This Book Is Structured](#-how-this-book-is-structured)

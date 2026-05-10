@@ -111,3 +111,7 @@ This progression reflects the overall philosophy of the book: building understan
 This chapter introduced the purpose of the book, the role of the meta model, and the structure of the repository that supports it. It established a foundation for understanding how Enterprise Architecture can be implemented as a coherent and usable system.
 
 The key idea is simple but critical: architecture becomes valuable when it is structured, consistent, and actively used.
+
+---
+
+Last updated at 2026/04/26

@@ -1,4 +1,4 @@
-; Sun Apr 26 22:40:06 CST 2026
+; Sat May 02 17:09:02 CST 2026
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -6106,6 +6106,156 @@
 	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
 	(system_content_quality_status [store_55_Class0])
 	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class40000] of  External_Business_Event
+
+	(interpreted_by_system_events [Essential_6.21_Class40001])
+	(name "Market Share Lower than 20%")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class40001] of  External_System_Event
+
+	(interpreted_as_business_event [Essential_6.21_Class40000])
+	(name "CRM System Analytical Report Result show Market Share")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class40002] of  Application_Provider
+
+	(deployments_of_application_provider [Essential_6.21_Class40004])
+	(distribute_costs TRUE)
+	(name "Essential_EAS")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(uses_information_representation [Essential_6.21_Class40012]))
+
+([Essential_6.21_Class40003] of  Application_Function_Implementation
+
+	(name "Essential_EAS::")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class40004] of  Application_Deployment
+
+	(application_deployment_label "Essential_EAS_OpenSource")
+	(application_deployment_role [essential_prj_EE_v0.1_Instance_20014])
+	(application_deployment_technology_instance
+		[Essential_6.21_Class40005]
+		[Essential_6.21_Class40008])
+	(application_provider_deployed [Essential_6.21_Class40002])
+	(name "Essential_EAS_OpenSource - 5. Development")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(uses_information_stores [Essential_6.21_Class40010]))
+
+([Essential_6.21_Class40005] of  Application_Software_Instance
+
+	(instance_of_application_deployment [Essential_6.21_Class40004])
+	(name "Essential_EAS_OpenSource - 5. Development::on::Laptop_PC_Yasen::")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(technology_instance_deployed_on_node [Essential_6.21_Class40007])
+	(technology_instance_of [Essential_6.21_Class40006]))
+
+([Essential_6.21_Class40006] of  Technology_Product
+
+	(name "Essential_MetaModel")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(technology_provider_instances [Essential_6.21_Class40005]))
+
+([Essential_6.21_Class40007] of  Technology_Node
+
+	(contained_technology_instances
+		[Essential_6.21_Class40005]
+		[Essential_6.21_Class40008])
+	(deployment_of [Essential_6.21_Class40006])
+	(name "Laptop_PC_Yasen")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class40008] of  Application_Software_Instance
+
+	(instance_of_application_deployment [Essential_6.21_Class40004])
+	(name "Essential_EAS_OpenSource - 5. Development::on::Laptop_PC_Yasen::")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(technology_instance_deployed_on_node [Essential_6.21_Class40007])
+	(technology_instance_of [Essential_6.21_Class40009]))
+
+([Essential_6.21_Class40009] of  Technology_Product
+
+	(name "Essential_OpenSource_Viewer")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE)
+	(technology_provider_instances [Essential_6.21_Class40008]))
+
+([Essential_6.21_Class40010] of  Information_Store
+
+	(deployment_of_information_representation [Essential_6.21_Class40011])
+	(name "EA_MetaModel_Business_Layer - Open_Source_Edition")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class40011] of  Information_Representation
+
+	(implemented_with_information_stores [Essential_6.21_Class40010])
+	(inforep_used_by_app_pro [Essential_6.21_Class40012])
+	(name "EA_MetaModel_Business_Layer")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
+	(system_content_visibility [essential_baseline_6.5.4_Class68])
+	(system_ea_reference_instance_counter 0)
+	(system_is_published TRUE))
+
+([Essential_6.21_Class40012] of  APP_PRO_TO_INFOREP_RELATION
+
+	(app_pro_creates_info_rep Unknown)
+	(app_pro_deletes_info_rep Unknown)
+	(app_pro_persists_info_rep FALSE)
+	(app_pro_reads_info_rep Unknown)
+	(app_pro_to_inforep_from_app [Essential_6.21_Class40002])
+	(app_pro_to_inforep_to_inforep [Essential_6.21_Class40011])
+	(app_pro_updates_info_rep Unknown)
+	(relation_name "EA_MetaModel_Business_Layer managed by Essential_EAS")
+	(system_content_lifecycle_status [essential_baseline_6.5.4_Class67])
+	(system_content_quality_status [store_55_Class0])
 	(system_ea_reference_instance_counter 0)
 	(system_is_published TRUE))
 
